@@ -1,0 +1,122 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="dc.css">
+  <script type="text/javascript">
+    window.onload = setInterval(clock,1000);
+
+    function clock()
+    {
+	  var d = new Date();
+	  
+	  var date = d.getDate();
+	  
+	  var month = d.getMonth();
+	  var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+	  month=montharr[month];
+	  
+	  var year = d.getFullYear();
+	  
+	  var day = d.getDay();
+	  var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+	  day=dayarr[day];
+	  
+	  var hour =d.getHours();
+      var min = d.getMinutes();
+	  var sec = d.getSeconds();
+	
+	  document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+	  document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+    }
+  </script>
+   <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <style>
+    .dot{
+    	height: 25px;
+    	width: 25px;
+    	background-color:black;
+    	border-radius: 50%;
+    	display: inline-block;
+    }
+   
+/* Track */
+::-webkit-scrollbar-track {
+  background:   #B0B0B0; 
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000; 
+  border-radius: 3px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:   #B0B0B0; 
+}
+	.margin {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 50px;
+}
+h1 {
+  font-family: Geneva;
+    font-transform: center;
+	 font-size:140px;}
+
+h2 {font-family: Akzidenz Grotesk;
+	font-weight: normal;
+	font-size: 30px;}
+    .mark:hover {
+  width: 100%;
+}
+    a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: #9933ff;
+}
+a:active {
+  text-decoration: none;
+}
+h3 {font-family:Akzidenz Grotesk;
+    font-size: 15px;
+    font-weight:medium;}
+    h4{font-size:40px;}
+</style>
+<script src="sketch.js"></script>
+
+</head>
+
+<title> SOEUN YOON</title>
+  </head>
+  <body>
+    <div class="margin">
+	<h1><a href="https://soeunyoon.myportfolio.com/about">SOEUN YOON</a></h1>
+    <br> <br> <br> <br> <br> <br> 
+    <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+      <span class="dot"></span>
+    <br> <br> <br><br> <br> <br>
+    <br> <br> <br><br> 
+    <h4><a href= "resume.html"> Resume </a><h4>
+        <p><b><a href="mailto:soeun0603@gmail.com"> Cont&#10036;ct</a></b></p>
+  <p><b><a href="https://instagram.com/_soeuneee/" target="_blank"> Inst&#10036;gr&#10036;m</a></b></p>
+   <br><br>
+    <h2>RI</h2>
+ <p id="date"></p>
+ <p id="time"></p>
+ <br><br> <br><br>
+ <h3> zoom out and drag to guess what the shape is!</h3>
+ <h3>&#8595;</h3>
+ </body>
+</html>
