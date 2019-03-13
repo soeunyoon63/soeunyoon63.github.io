@@ -3,93 +3,198 @@
 	<head>
 		    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
-		.help {cursor: help;}
+		
+				.help {cursor: help;}
+		
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom:-20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-family:Geneva;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -25px;
+	opacity: 1;
+}
 
+* {
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 100%) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 100%) {
+  .column {
+    width: 100%;
+  }
+}
 /* Track */
 ::-webkit-scrollbar-track {
   background: #B0B0B0; 
 }
- 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #000; 
   border-radius: 5px;
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: 	#B0B0B0; 
+  background: #B0B0B0; 
 }
+/*click outline*/
 		p1 {font-family: Akzidenz Grotesk;
 		    font-size: 15px;}
-		  div {
-		  width: 100px;
-		  height: 100px;
-		  background:	#B7CEEC;
-		  -webkit-transition-property: width;
-		  -webkit-transition-duration: 4s;
-		  transition-property: width;
-		  transition-duration: 4s;
-		}
-		    div:hover {
-		  width: 100%;
-		}
 		    a:link {
 		  text-decoration: none;
 		  color: black;
 		}
-
 		a:visited {
 		  text-decoration: none;
 		  color: black;
 		}
-
 		a:hover {
 		  text-decoration: none;
 		  color: #9933ff;
 		}
-
 		a:active {
 		  text-decoration: none;
 		}
-		p2 {width: 100%
-			height:100%
-			display: block;
-  			margin-left: auto;
- 		 margin-right: auto;
- 		bottom: 100px;}
-
- 		h2 {font-weight: lighter;
- 			font-family: Akzidenz Grotesk;
- 			font-size: 15px;
- 			margin-left: 50px;}
 		</style>
 	</head>
   <body>
-		<p1 class="help">
-		<br><br><br><br><br>
-     <ol>
-       <p><b><li><div><a href="sequence.html">Sequence</li></a><b></p>
-         <br>
-            <p><b><div><a href="story with color.html"><li> Story with Color </li></a><b></p>
-        <br><br><br>    <br><br><br>
-       <p><b><div><a href="to forget list.html"><li> To Forget List </li></a><b></p>
-         <br><br><br>    <br><br><br>
-       <p><b><div><a href="im curious.html"><li> Why Do Mosquitos Bite Itch? </li></a><b></p>
-       <br><br><br>    <br><br><br>
-       <p><b><div><a href="max.html"><li> Virus Infection </li></a><b></p>
-       	<br><br><br>    <br><br><br>
-       	<p><b><div><a href="logotype.html"><li> Logotype Book </li></a><b></p>
-       	<br><br><br>    <br><br><br>
-        <p><b><div><a href="checkup.html"><li> Checkup </li></a><b></p>
-        <br><br><br>    <br><br><br>
-        <p><b><div><a href="scarf.html"><li> Melting Snow Scarf </li></a><b></p>
-       	<br><br><br><br><br><br><br><br><br>
-     </ol>
+	<p1 class="help">
+    <div class="row">
+    	<div class="column">
+    <div class="content">
+    	 <div>
+     <figure> <a href="scarf.html"><img src="textile/finalscarf.jpg" alt="scarf" style="width:100%"></a></figure>
+     <span>MELTING SNOW SCARF</span>
+ </div></div></div>
+  <div class="column">
+    <div class="content">
+    	 <div>
+     <figure> <a href="sequence.html"><img src="sequence/1.jpg" alt="sequence" style="width:100%"></a></figure>
+     <span>SEQUENCE</span>
+</div></div></div>
+  <div class="column">
+    <div class="content">
+    	 <div>
+     <figure> <a href="story with color.html"><img src="story with color/color.jpg" alt="color" style="width:100%"></a></figure>
+     <span>STORY WITH COLOR</span>
+ </div></div></div>
+ <div class="column">
+    <div class="content">
+    	 <div>
+     <figure> <a href="im curious2.html"><img src="curious2/1.gif" alt="im curious2" style="width:100%"></a></figure>
+     <span>WHY DO MOSQUITOS BITE ITCH?</span>
+ </div></div></div>
+  <div class="column">
+    <div class="content">
+    	 <div>
+     <figure> <a href="im curious.html"><img src="curious/ENORMITY.gif" alt="im curious" style="width:100%"></a></figure>
+     <span>WHY DO MOSQUITOS BITE ITCH?</span>
+ </div></div></div>
+ <div class="column">
+    <div class="content">
+    	 <div>
+     <figure> <a href="to forget list.html"><img src="to forget list/jellored.gif" alt="to forget list" style="width:100%"></a></figure>
+     <span>TO FORGET LIST</span>
+ </div></div></div>
+ <div class="column">
+    <div class="content">
+    	 <div>
+     <figure> <a href="max.html"><img src="max/virus+.jpg" alt="virus infection" style="width:100%"></a></figure>
+     <span>VIRUS</span>
+ </div></div></div>
+  <div class="column">
+    <div class="content">
+    	 <div>
+     <figure> <a href="logotype.html"><img src="logotype/logotype mockup.jpg" alt="logotype book" style="width:100%"></a></figure>
+     <span>LOGOTYPE BOOK</span>
+ </div></div></div>
+  <div class="column">
+    <div class="content">
+    	 <div>
+     <figure> <a href="checkup.html"><img src="mental/1.jpg" alt="checkup" style="width:100%"></a></figure>
+     <span>CHECK UP</span>
+ </div></div></div>  
    </p1>
-      	<br><br><br><br><br><br><br><br><br>   	<br><br><br><br><br><br><br><br><br>   	<br><br><br><br><br><br><br><br><br>   	<br><br><br><br><br><br><br><br><br>   	<br><br><br><br><br><br><br><br><br>   	<br><br><br><br><br><br><br><br><br>  
-   <H2>
- Copyright © SOEUN YOON </H2>
+
 </body>
 </html>
