@@ -30,21 +30,17 @@ html, body {
   transition: 0.3s;
 }
 .headerme {
-  font-family: Palatino;
+  font-family: Georgia;
   font-size: 36px;
   font-weight: bold;
   pointer-events:auto;
 }
 .headercontact {
-  font-family: Palatino;
+  font-family: Georgia;
   font-size: 30px;
   font-weight: bold;
   float: right;
   padding-right: 40px;
-}
-.backto {
-  height: 130px;
-  float: center;
 }
 .responsive {
 	
@@ -152,7 +148,7 @@ body {
 }
 
 /*click outline*/
-		p1 {font-family: Akzidenz Grotesk;
+		p {font-family: Georgia;
 		    font-size: 15px;}
 		    a:link {
 		  text-decoration: none;
