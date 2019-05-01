@@ -8,6 +8,11 @@ html, body {
   margin-right: 100px;
   margin-left: 100px;
 }
+.aboutmargin {
+  margin-top: 70px;
+  margin-right: 100px;
+  margin-left: 150px;
+}
 #grad1 {
   height: 100%;
   background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); 
