@@ -23,6 +23,7 @@ html, body {
 	height: 110px;
 	line-height: 110px;
 	position: fixed;
+	text-align:center;
 	  z-intex:9999;
 	}	
 .headerme:hover {
@@ -38,6 +39,8 @@ html, body {
   font-family: Georgia;
   font-size: 36px;
   font-weight: bold;
+  float: left;
+  padding-left:40px;
   pointer-events:auto;
 }
 .headercontact {
