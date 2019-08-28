@@ -213,6 +213,7 @@ h4 { font-family: geneva;
 	font-weight: 50;
 	font-size: 1vw;
 	font-style: italic;}
+
 img {
   height: 100%;
   width: 100%;
@@ -243,9 +244,8 @@ div.a {
 
 .grid-container{
   display: grid;
-  margin-top: 0px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 }
