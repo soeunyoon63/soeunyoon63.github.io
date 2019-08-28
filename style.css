@@ -80,8 +80,8 @@ h1 {
   }
 }
 .aboutmargin {
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 #grad1 {
   height: 100%;
@@ -111,6 +111,7 @@ h1 {
   font-weight: bold;
   float: left;
   padding-left:40px;
+  margin-top:5%;
   pointer-events:auto;
 }
 .headercontact {
@@ -118,6 +119,7 @@ h1 {
   font-size: 2vw;
   font-weight: bold;
   float: right;
+  margin-top:5%;
   padding-right: 40px;
 }
 .responsive {
@@ -232,14 +234,13 @@ div.a {
 }
 .header{
 	display: inline-block;
-	grid-area: "header";
 }
 .subheader {
 	display: inline-block;
 	grid-area: "main"
 }
-.description {
-	margin-bottom: 20px;
+.aboutdescription {
+	margin-left:5%;
 }
 
 .grid-container{
