@@ -90,7 +90,7 @@ h1 {
 .help {cursor: help;}
 .navigationbar {
 	width: 100%;
-	height: 110px;
+	height: 10%;
 	line-height: 110px;
 	position: sticky;
 	text-align:center;
