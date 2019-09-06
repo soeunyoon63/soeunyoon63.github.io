@@ -250,5 +250,8 @@ div.a {
   margin-left: 10%;
   margin-right: 10%;
 }
+.no-italics {
+    font-style: normal;   
+}
 
 }
