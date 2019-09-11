@@ -10,7 +10,7 @@ html, body {
 body {
   background-color: #f1f1f1;
   padding: 20px;
-  font-family: Arial;
+  font-family: helvetica;
 }
 
 /* Center website */
@@ -103,25 +103,23 @@ h1 {
   transition: 0.3s;
 }
 .headercontact:hover {
-  color: #9933ff;
+  color: grey;
   z-index: 9999;
   transition: 0.3s;
 }
 .headerme {
-  font-family: Georgia;
-  font-size: 200%;
-  font-weight: bold;
+  font-family: Roboto;
+  font-size: 130%;
   float: left;
   padding-left:40px;
-  margin-top:5%;
+  margin-top:2%;
   pointer-events:auto;
 }
 .headercontact {
-  font-family: Georgia;
-  font-size: 200%;
-  font-weight: bold;
+  font-family: Roboto;
+  font-size: 130%;
   float: right;
-  margin-top:5%;
+  margin-top:2%;
   padding-right: 40px;
 }
 .responsive {
@@ -148,8 +146,8 @@ h1 {
 	left: 0;
 	display: block;
 	width: 220px;
-	color: #444;
-	font-family:Geneva;
+	color: grey;
+	font-family:Cantarell;
 	font-size: .75vw;
 	text-decoration: none;
 	text-align: center;
@@ -173,14 +171,14 @@ figure:hover+span {
 body {
   background-color: white;
   padding: 20px;
-  font-family: Arial;
+  font-family: helvetica;
 }
 
 
 
 
 /*click outline*/
-		p {font-family: Georgia;
+		p {font-family: NB Akademie Mono Std;
 		    font-size: 5vw;}
 		    a:link {
 		  text-decoration: none;
@@ -192,21 +190,21 @@ body {
 		}
 		a:hover {
 		  text-decoration: none;
-		  color: #9933ff;
+		  color: grey;
 		}
 		a:active {
 		  text-decoration: none;
 		}
 
-h1 {font-family: geneva;
+h1 {font-family: NB Akademie Mono Std;
 	font-weight: bold;
 	font-size: 100%;
 	text-align:justify;
 }
-h2 {font-family: geneva;
+h2 {font-family: Ubuntu;
 	font-weight: 100;
 	font-size: 100%;
-	color: #9933ff;
+	color: grey;
 }
 h3 {font-family: geneva;
 	font-weight: 50;
@@ -214,7 +212,8 @@ h3 {font-family: geneva;
 }
 
 h4 { font-family: geneva;
-	font-weight: 50;
+	font-weight: 10;
+	color: grey;
 	font-size: 100%;
 	font-style: italic;}
 
