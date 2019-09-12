@@ -15,7 +15,7 @@ body {
 
 /* Center website */
 .main {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -147,7 +147,7 @@ h1 {
 	display: block;
 	width: 220px;
 	color: grey;
-	font-family:Cantarell;
+	font-family:NB Akademie Mono Std;
 	font-size: .75vw;
 	text-decoration: none;
 	text-align: center;
@@ -201,17 +201,17 @@ h1 {font-family: NB Akademie Mono Std;
 	font-size: 100%;
 	text-align:justify;
 }
-h2 {font-family: Ubuntu;
+h2 {font-family: helvetica;
 	font-weight: 100;
 	font-size: 100%;
 	color: grey;
 }
-h3 {font-family: geneva;
+h3 {font-family: helvetica;
 	font-weight: 50;
 	font-size: 100%;
 }
 
-h4 { font-family: geneva;
+h4 { font-family: helvetica;
 	font-weight: 10;
 	color: grey;
 	font-size: 100%;
