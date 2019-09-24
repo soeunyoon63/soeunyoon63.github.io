@@ -7,18 +7,11 @@ html, body {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: helvetica;
-}
-
 /* Center website */
 .main {
   max-width: 1200px;
   margin: auto;
 }
-
 h1 {
   font-size: 5vw;
   word-break: break-all;
@@ -27,7 +20,6 @@ h1 {
 .row {
   margin: 8px -16px;
 }
-
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
@@ -58,13 +50,9 @@ h1 {
 /* Content */
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 10px ;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
@@ -72,7 +60,6 @@ h1 {
     width: 50%;
   }
 }
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -80,14 +67,9 @@ h1 {
   }
 }
 
-
 .aboutmargin {
   margin-right: 10%;
   margin-left: 10%;
-}
-#grad1 {
-  height: 100%;
-  background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); 
 }
 .help {cursor: help;}
 .navigationbar {
@@ -108,7 +90,7 @@ h1 {
   transition: 0.3s;
 }
 .headerme {
-  font-family: Roboto;
+  font-family: NB Akademie Mono Std;
   font-size: 130%;
   float: left;
   padding-left:40px;
@@ -116,14 +98,13 @@ h1 {
   pointer-events:auto;
 }
 .headercontact {
-  font-family: Roboto;
+  font-family: NB Akademie Mono Std;
   font-size: 130%;
   float: right;
   margin-top:2%;
   padding-right: 40px;
 }
-.responsive {
-	
+.responsive {	
 	width: 50%;
 	height: auto;
 }
@@ -167,16 +148,6 @@ figure:hover+span {
 	opacity: 1;
 }
 
-
-body {
-  background-color: white;
-  padding: 20px;
-  font-family: helvetica;
-}
-
-
-
-
 /*click outline*/
 		p {font-family: NB Akademie Mono Std;
 		    font-size: 5vw;}
@@ -217,17 +188,17 @@ h4 { font-family: helvetica;
 	font-size: 100%;
 	font-style: italic;}
 
+h5  {font-family: helvetica;
+	font-weight: 50;
+	font-size: 17px;
+}
+
 img {
   height: 100%;
   width: 100%;
   margin-right: 100%;
   }
 
-p1 {font-family: geneva;
-	font-weight: bold;
-	font-size: 100%;
-	text-align:justify;
-}
 
 .img1 { background-image: url("sequence/5.jpg"); }
 div.a {
@@ -242,6 +213,12 @@ div.a {
 }
 .aboutdescription {
 	margin-left:5%;
+	margin-left: 50%;
+}
+.aboutdescription2 {
+	margin-left:5%;
+	width: 100%;
+	float: left;
 }
 
 .grid-container{
@@ -253,4 +230,36 @@ div.a {
     font-style: normal;   
 }
 
+#navbar {
+  overflow: hidden;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 21px;
+  font-family: helvetica;
+}
+
+#navbar a:hover {
+  color: grey;
+  z-index: 9999;
+  transition: 0.3s;
+}
+
+#navbar a.active {
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 600px;
 }
