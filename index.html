@@ -25,7 +25,7 @@ body {
    <!---Portfolio--->
       <div class="main">
              <div class= aboutdescription>
-             <h5>Soeun Yoon studies Graphic Design at Rhode Island School of Design (RISD). She loves creating dimensional visuals and all types of experimental design. This website is created by her with HTML, CSS, Javascript. In addition to Graphic Design, she studies UIUX and Cognitive Psychology on the topics of marketing and values of consumer needs at Brown University. </h5></div>
+             <h5>Soeun Yoon studies Graphic Design at RISD, Rhode Island School of Design. She loves creating dimensional visuals and all types of experimental design. This website is created by her with HTML, CSS, Javascript. In addition to Graphic Design, she studies UIUX and Cognitive Psychology on the topics of marketing and values of consumer needs at Brown University. </h5></div>
               <p1 class="help">
               <div class="row">
            <div class="column">
@@ -117,17 +117,15 @@ body {
    </p1>
 
       <script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
   } else {
-    navbar.classList.remove("sticky");
+    document.getElementById("navbar").style.top = "-50px";
   }
+  prevScrollpos = currentScrollPos;
 }
 </script>
 </body>

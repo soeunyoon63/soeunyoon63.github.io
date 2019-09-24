@@ -4,26 +4,19 @@
 <link href="style.css" type="text/css" rel="stylesheet">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
- <!---Navigation Bar--->
-          <div clas="row">
-            <div class="column">
-          <a class="headerme" href="about.html">SOEUN YOON</a>
-        </div></div></div>
-         <div class="column">
-          <a class="headercontact" href="mailto:soeun0603@gmail.com"> CONTACT</a>
-        </div></div>
-         <div class="column">
-          <figure><a href="index.html"><img src="logo.png" alt="Soeun Yoon Logo" style="width:15%;height:15%; margin-bottom: 10%"></a>
-        </div></div>
-<br><br><br><br><br><br><br><br><br>
+<!---Navigation Bar--->
+        <div id="navbar2">
+          <a class="active" href="mailto:soeun0603@gmail.com"> CONTACT</a>
+           <a class="active" href= "about.html">ABOUT /</a>
+          <a class="active" href= "index.html">WORK /</a>
+        </div>
 
 <!---Header--->
-<div class="main">
+<div class="main2">
   <div class=title>
     <h1 class= header><a href= "index.html"> TO FORGET LIST</a></h1>
     <h2 class=subheader><div class="subheader">2019</h2>
   </div>
-
   <div class= description>
 <h3> There is a common term used in Korea called “이불 킥” which literally means kick blankets. It is used for a situation when someone is going to sleep and suddenly remembers an embarrassing moment then he or she kicks the blanket unconsciously due to shame or regret. Similar to the concept of To Do List, I created a notepad that you can write down moments you want to forget about. Whether you bury or burn the note is up to the user.
   <br><br>
@@ -78,7 +71,18 @@ According to an article I read, scientists had found a brain that is transparent
 
 <!---Back to Menu--->
 <p><a href= "index.html"><i class='no-italics'><div align="center"> &larr; </div></p></i>
-
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar2").style.top = "0";
+  } else {
+    document.getElementById("navbar2").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 </body>
 </html>
 

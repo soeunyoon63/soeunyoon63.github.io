@@ -12,6 +12,11 @@ html, body {
   max-width: 1200px;
   margin: auto;
 }
+.main2 {
+  margin-right: 5%;
+  margin-left: 3%;
+  margin-top:15%;
+}
 h1 {
   font-size: 5vw;
   word-break: break-all;
@@ -65,6 +70,10 @@ h1 {
   .column {
     width: 100%;
   }
+  .aboutdescription {
+	width: 50%;
+	margin-top:15%;
+	}
 }
 
 .aboutmargin {
@@ -122,14 +131,13 @@ h1 {
 }
 
 .column div span {
-	position: absolute;
-	bottom:-20px;
+	position: center;
+	margin-top:25px;
 	left: 0;
 	display: block;
-	width: 220px;
 	color: grey;
 	font-family:NB Akademie Mono Std;
-	font-size: .75vw;
+	font-size: 45%;
 	text-decoration: none;
 	text-align: center;
 	-webkit-transition: .3s ease-in-out;
@@ -144,7 +152,7 @@ figure {
 	background: white;
 }
 figure:hover+span {
-	bottom: -25px;
+	margin-bottom: 30px;
 	opacity: 1;
 }
 
@@ -212,7 +220,6 @@ div.a {
 	grid-area: "main"
 }
 .aboutdescription {
-	margin-left:5%;
 	margin-left: 50%;
 }
 .aboutdescription2 {
@@ -231,35 +238,50 @@ div.a {
 }
 
 #navbar {
-  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  font-family: Helvetica;
 }
 
 #navbar a {
   float: left;
   display: block;
   text-align: center;
-  padding: 14px 10px;
+  padding: 10px;
   text-decoration: none;
   font-size: 21px;
-  font-family: helvetica;
+  color: black;
+  font-family: Helvetica;
 }
 
 #navbar a:hover {
   color: grey;
-  z-index: 9999;
-  transition: 0.3s;
+  font-family: Helvetica;
 }
-
-#navbar a.active {
-  color: black;
-}
-
-.sticky {
+#navbar2 {
   position: fixed;
   top: 0;
   width: 100%;
+  display: block;
+  transition: top 0.3s;
+  font-family: Helvetica;
 }
 
-.sticky + .content {
-  padding-top: 600px;
+#navbar2 a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 21px;
+  color: black;
+  font-family: Helvetica;
+}
+
+#navbar2 a:hover {
+  color: grey;
+  font-family: Helvetica;
 }
