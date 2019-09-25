@@ -15,7 +15,7 @@ html, body {
 .main2 {
   margin-right: 5%;
   margin-left: 3%;
-  margin-top:15%;
+  margin-top:10%;
 }
 h1 {
   font-size: 5vw;
@@ -74,6 +74,9 @@ h1 {
 	width: 50%;
 	margin-top:15%;
 	}
+.twoabout {
+	
+}
 }
 
 .aboutmargin {
