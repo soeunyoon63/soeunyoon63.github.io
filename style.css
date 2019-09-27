@@ -12,6 +12,7 @@ html, body {
 .main {
   max-width: 1200px;
   margin: auto;
+  margin-top:5;
 }
 .main2 {
   margin-right: 5%;
@@ -40,7 +41,7 @@ h1 {
 .column2 {
 	width:33%;
 	float:left;
-  padding:10px;
+  padding:5px;
 }
 /* Clear floats after rows */ 
 .row:after {
@@ -55,12 +56,12 @@ h1 {
   padding:10px;
 }
 .twoabout {
-  width: 50%;
+  width: 60%;
 }
 /* Content */
 .content {
   background-color: white;
-  padding: 10px ;
+  padding: 5px ;
 }
 
 
@@ -80,6 +81,11 @@ h1 {
 	margin-top:15%;
   margin-left:10%;
 	}
+  .main2 {
+  margin-right: 5%;
+  margin-left: 3%;
+  margin-top:15%;
+}
 
 }
 
@@ -106,7 +112,7 @@ h1 {
   transition: 0.3s;
 }
 .headerme {
-  font-family: NB Akademie Mono Std;
+  font-family: NB Akademie Mono Std,Helvetica;
   font-size: 130%;
   float: left;
   padding-left:40px;
@@ -114,7 +120,7 @@ h1 {
   pointer-events:auto;
 }
 .headercontact {
-  font-family: NB Akademie Mono Std;
+  font-family: NB Akademie Mono Std,Helvetica;
   font-size: 130%;
   float: right;
   margin-top:2%;
@@ -143,7 +149,7 @@ h1 {
 	left: 0;
 	display: block;
 	color: grey;
-	font-family:NB Akademie Mono Std;
+	font-family:NB Akademie Mono Std,Helvetica;
 	font-size: 45%;
 	text-decoration: none;
 	text-align: center;
@@ -164,7 +170,7 @@ figure:hover+span {
 }
 
 /*click outline*/
-		p {font-family: NB Akademie Mono Std;
+		p {font-family: NB Akademie Mono Std,Helvetica;
 		    font-size: 5vw;}
 		    a:link {
 		  text-decoration: none;
@@ -182,7 +188,7 @@ figure:hover+span {
 		  text-decoration: none;
 		}
 
-h1 {font-family: NB Akademie Mono Std,DIN Next;
+h1 {font-family: NB Akademie Mono Std,Helvetica;
 	font-weight: bold;
 	font-size: 100%;
 	text-align:justify;
