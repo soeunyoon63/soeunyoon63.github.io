@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   border:0;
+  overflow-x: hidden; 
 }
 * {
   box-sizing: border-box;
@@ -39,6 +40,7 @@ h1 {
 .column2 {
 	width:33%;
 	float:left;
+  padding:10px;
 }
 /* Clear floats after rows */ 
 .row:after {
@@ -50,8 +52,11 @@ h1 {
 .two {
 	width: 50%;
 	float: left;
+  padding:10px;
 }
-
+.twoabout {
+  width: 50%;
+}
 /* Content */
 .content {
   background-color: white;
@@ -73,10 +78,9 @@ h1 {
   .aboutdescription {
 	width: 50%;
 	margin-top:15%;
+  margin-left:10%;
 	}
-.twoabout {
-	
-}
+
 }
 
 .aboutmargin {
@@ -178,30 +182,32 @@ figure:hover+span {
 		  text-decoration: none;
 		}
 
-h1 {font-family: NB Akademie Mono Std;
+h1 {font-family: NB Akademie Mono Std,DIN Next;
 	font-weight: bold;
 	font-size: 100%;
 	text-align:justify;
 }
 h2 {font-family: helvetica;
 	font-weight: 100;
-	font-size: 100%;
+	font-size: 85%;
 	color: grey;
 }
 h3 {font-family: helvetica;
 	font-weight: 50;
 	font-size: 100%;
+  line-height: 1.6;
 }
 
 h4 { font-family: helvetica;
-	font-weight: 10;
+	font-weight: 100;
 	color: grey;
-	font-size: 100%;
+	font-size: 85%;
 	font-style: italic;}
 
 h5  {font-family: helvetica;
 	font-weight: 50;
-	font-size: 17px;
+	font-size: 15px;
+  line-height: 1.6;
 }
 
 img {
@@ -255,7 +261,7 @@ div.a {
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 15px;
   color: black;
   font-family: Helvetica;
 }
@@ -267,19 +273,18 @@ div.a {
 #navbar2 {
   position: fixed;
   top: 0;
+  padding: 10px;
   width: 100%;
-  display: block;
   transition: top 0.3s;
   font-family: Helvetica;
 }
 
 #navbar2 a {
-  float: right;
-  display: block;
+  float: center;
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 17px;
   color: black;
   font-family: Helvetica;
 }
