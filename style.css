@@ -12,11 +12,11 @@ html, body {
 .main {
   max-width: 1200px;
   margin: auto;
-  margin-top:5;
+  margin-top:3%;
 }
 .main2 {
-  margin-right: 5%;
-  margin-left: 3%;
+  max-width: 1200px;
+  margin: auto;
   margin-top:10%;
 }
 h1 {
@@ -39,8 +39,8 @@ h1 {
   width: 50%;
 }
 .column2 {
-	width:33%;
-	float:left;
+  width:33%;
+  float:left;
   padding:5px;
 }
 /* Clear floats after rows */ 
@@ -51,8 +51,8 @@ h1 {
 }
 
 .two {
-	width: 50%;
-	float: left;
+  width: 50%;
+  float: left;
   padding:10px;
 }
 .twoabout {
@@ -77,16 +77,23 @@ h1 {
     width: 100%;
   }
   .aboutdescription {
-	width: 50%;
-	margin-top:25%;
+  width: 50%;
+  margin-top:25%;
   margin-left:10%;
-	}
+  }
+  .main {
+  max-width: 1200px;
+  margin-left: 5%;
+  margin-top:3%;
+}
   .main2 {
+  max-width: 1200px;
+  margin: auto;
+  margin-top:10%;
   margin-right: 5%;
-  margin-left: 3%;
+  margin-left: 5%;
   margin-top:15%;
 }
-
 }
 
 .aboutmargin {
@@ -95,13 +102,13 @@ h1 {
 }
 .help {cursor: help;}
 .navigationbar {
-	width: 100%;
-	height: 10%;
-	line-height: 110px;
-	position: sticky;
-	text-align:center;
-	  z-intex:9999;
-	}	
+  width: 100%;
+  height: 10%;
+  line-height: 110px;
+  position: sticky;
+  text-align:center;
+    z-intex:9999;
+  } 
 .headerme:hover {
   color: #9933ff;
   transition: 0.3s;
@@ -126,94 +133,97 @@ h1 {
   margin-top:2%;
   padding-right: 40px;
 }
-.responsive {	
-	width: 50%;
-	height: auto;
+.responsive { 
+  width: 50%;
+  height: auto;
 }
 
 .column:last-child {
-	padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 .column::after {
-	content: '';
-	clear: both;
-	display: block;
+  content: '';
+  clear: both;
+  display: block;
 }
 .column div {
-	position: relative;
+  position: relative;
 }
 
 .column div span {
-	position: center;
-	margin-top:25px;
-	left: 0;
-	display: block;
-	color: grey;
-	font-family:NB Akademie Mono Std,Helvetica;
-	font-size: 45%;
-	text-decoration: none;
-	text-align: center;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	opacity: 0;
+  position: center;
+  margin-top:25px;
+  left: 0;
+  display: block;
+  color: grey;
+  font-family:NB Akademie Mono Std,Helvetica;
+  font-size: 45%;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  opacity: 0;
 }
 figure {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: white;
 }
 figure:hover+span {
-	margin-bottom: 30px;
-	opacity: 1;
+  margin-bottom: 30px;
+  opacity: 1;
 }
 
 /*click outline*/
-		p {font-family: NB Akademie Mono Std,Helvetica;
-		    font-size: 5vw;}
-		    a:link {
-		  text-decoration: none;
-		  color: black;
-		}
-		a:visited {
-		  text-decoration: none;
-		  color: black;
-		}
-		a:hover {
-		  text-decoration: none;
-		  color: grey;
-		}
-		a:active {
-		  text-decoration: none;
-		}
+    p {font-family: NB Akademie Mono Std,Helvetica;
+        font-size: 5vw;}
+        a:link {
+      text-decoration: none;
+      color: black;
+    }
+    a:visited {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      text-decoration: none;
+      color: grey;
+    }
+    a:active {
+      text-decoration: none;
+    }
 
 h1 {font-family: NB Akademie Mono Std,Helvetica;
-	font-weight: bold;
-	font-size: 100%;
-	text-align:justify;
+  font-weight: bold;
+  font-size: 100%;
+  text-align:justify;
 }
 h2 {font-family: helvetica;
-	font-weight: 100;
-	font-size: 85%;
-	color: grey;
+  font-weight: 100;
+  font-size: 85%;
+  color: grey;
 }
 h3 {font-family: helvetica;
-	font-weight: 50;
-	font-size: 100%;
+  font-weight: 50;
+  font-size: 100%;
   line-height: 1.6;
 }
 
 h4 { font-family: helvetica;
-	font-weight: 100;
-	color: grey;
-	font-size: 85%;
-	font-style: italic;}
+  font-weight: 100;
+  color: grey;
+  font-size: 85%;
+  font-style: italic;}
 
 h5  {font-family: helvetica;
-	font-weight: 50;
-	font-size: 15px;
+  font-weight: 50;
+  font-size: 15px;
   line-height: 1.6;
+  max-width: 1200px;
+  margin: auto;
+  margin-left: 7%;
 }
 
 img {
@@ -228,19 +238,19 @@ div.a {
   text-align: center;
 }
 .header{
-	display: inline-block;
+  display: inline-block;
 }
 .subheader {
-	display: inline-block;
-	grid-area: "main"
+  display: inline-block;
+  grid-area: "main"
 }
 .aboutdescription {
-	margin-left: 50%;
+  margin-left: 50%;
 }
 .aboutdescription2 {
-	margin-left:5%;
-	width: 100%;
-	float: left;
+  margin-left:5%;
+  width: 100%;
+  float: left;
 }
 
 .grid-container{
@@ -267,7 +277,7 @@ div.a {
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
   color: black;
   font-family: Helvetica;
 }
@@ -296,6 +306,31 @@ div.a {
 }
 
 #navbar2 a:hover {
+  color: grey;
+  font-family: Helvetica;
+}
+#navbar2white {
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  transition: top 0.3s;
+  font-family: Helvetica;
+  color: white;
+}
+
+#navbar2white a {
+  float: center;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-family: Helvetica;
+  color: white;
+}
+
+#navbar2white a:hover {
   color: grey;
   font-family: Helvetica;
 }

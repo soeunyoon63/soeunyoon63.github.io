@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
+<style>
+  body {background-color:black;
+  }
+  h1,h3{color:white;}
+</style>
 <head>
 <link href="style.css" type="text/css" rel="stylesheet">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
  <!---Navigation Bar--->
-        <div id="navbar2">
+        <div id="navbar2white">
           <a class="active" href="mailto:soeun0603@gmail.com"> CONTACT</a>
            <a class="active" href= "about.html">ABOUT </a>
           <a class="active" href= "index.html">WORK </a>
@@ -13,14 +18,17 @@
 
 <!---Header--->
 <div class="main2">
+  <div class=row>
+<img src="images/curious2/gif.gif" alt="gif">
+</div>
   <div class=title>
-    <h1 class= header><a href= "index.html"> WHY DO MOSQUITO BITES ITCH?</a></h1>
+    <h1 class= header> WHY DO MOSQUITO BITES ITCH?</h1>
     <h2 class=subheader><div class="subheader">2019</h2>
   </div>
 
-  <div class= description>
+<div class= description>
 <h3> Everyday, we encounter hundreds (if not thousands) of disparate pieces of information in the form of facts. They can spark curiosity, joy, or shock; provide us with knowledge; reinforce our existing opinions; persuade us to change our thoughts and behavior; or provoke us to reconsider our previous assumptions, and lead us to new meanings. 
-  <br><br>From the Google “I’m feeling curious” algorithm, I researched about why mosquito bites itch. 
+<br><br>From the Google “I’m feeling curious” algorithm, I researched about why mosquito bites itch. 
 </h3>
 <br><br>
 <h2>Motion Graphics</h2>
@@ -28,9 +36,7 @@
 <br> <br> 
 
 <!---Portfolio--->
-<div class=row>
-<img src="images/curious2/gif.gif" alt="gif">
-</div>
+
 <br>
 <div class=row>
 <img src="images/curious2/ying and yang.jpg" alt="1">
@@ -44,9 +50,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar2").style.top = "0";
+    document.getElementById("navbar2white").style.top = "0";
   } else {
-    document.getElementById("navbar2").style.top = "-50px";
+    document.getElementById("navbar2white").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
 }
