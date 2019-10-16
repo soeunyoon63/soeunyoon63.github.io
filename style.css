@@ -19,11 +19,8 @@ html, body {
   margin: auto;
   margin-top:10%;
 }
-h1 {
-  font-size: 5vw;
-  word-break: break-all;
-}
 
+/* Image Layout */
 .row {
   margin: 8px -16px;
 }
@@ -33,15 +30,15 @@ h1 {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-}
 .column2 {
   width:33%;
   float:left;
   padding:5px;
+}
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
 }
 /* Clear floats after rows */ 
 .row:after {
@@ -49,14 +46,14 @@ h1 {
   display: table;
   clear: both;
 }
-
 .two {
   width: 50%;
   float: left;
   padding:10px;
 }
 .twoabout {
-  width: 60%;
+  margin-left:10%;
+  margin-right:15%;
 }
 /* Content */
 .content {
@@ -64,11 +61,11 @@ h1 {
   padding: 5px ;
 }
 
-
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
-    width: 50%;
+    width: 96%;
+    margin-left:2%;
   }
   .aboutdescription {
   padding-top: 150px;
@@ -76,65 +73,17 @@ h1 {
   width: 90%;
   text-align: left;
   position: relative;
-}
-}
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-  .aboutdescription {
-  padding-top: 150px;
-  left: 0;
-  width: 90%;
-  text-align: left;
-  position: relative;
-}
-
-  .main2 {
-  max-width: 1200px;
-  margin: auto;
-  margin-top:10%;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top:15%;
-}
-#navbarlogo {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: block;
-}
-
-#navbarlogo a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 10px;
-  margin-top:20px;
 }
 #navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: block;
-  transition: top 0.3s;
+  visibility: hidden;
 }
 
 #navbar a {
-  float: right;
-  display: block;
-  margin-top:10px;
-  margin-right:9%;
-  text-decoration: none;
-  font-size: 17px;
-  color: black;
-  font-family: Helvetica;
+ visibility: hidden;
 }
 
 #navbar a:hover {
-  color: grey;
-  font-family: Helvetica;
+  visibility: hidden;
 }
 #navbar2 {
   position: fixed;
@@ -142,7 +91,8 @@ h1 {
   padding: 10px;
   width: 100%;
   transition: top 0.3s;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
+
 }
 
 #navbar2 a {
@@ -151,55 +101,157 @@ h1 {
   text-align: center;
   padding: 10px;
   margin-top:10px;
-  margin-left:3%;
-  margin-right:3%;
+  margin-left:1%;
+  margin-right:1%;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 10px;
   color: black;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
 }
 
 #navbar2 a:hover {
   color: grey;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
 }
 #navbar2white {
   position: fixed;
   top: 0;
-  padding: 10px;
-  width: 100%;
+  margin-top: 10px;
+  width: 0%;
   transition: top 0.3s;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
   color: white;
 }
 
 #navbar2white a {
   float: center;
   text-align: center;
-  padding: 10px;
   margin-top:10px;
-  margin-left:3%;
-  margin-right:3%;
+  margin-left:1%;
+  margin-right:1%;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 5px;
   color: black;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
   color: white;
+  overflow: hidden;
 }
 
 #navbar2white a:hover {
   color: grey;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
+}
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 96%;
+    margin-left:2%;
+  }
+
+  .aboutdescription {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  width: 90%;
+  text-align: left;
+  position: relative;
+}
+  .main2 {
+  max-width: 1200px;
+  margin: auto;
+  margin-top:10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top:15%;
+}
+/*#navbarlogo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+#navbarlogo a {
+  float: fixed;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-top:20px;
+  position: relative;
+}*/
+#navbar {
+  visibility: hidden;
+}
+
+#navbar a {
+ visibility: hidden;
+}
+
+#navbar a:hover {
+  visibility: hidden;
+}
+#navbar2 {
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  transition: top 0.3s;
+  font-family: Helvetica Neue, Serif;
+}
+
+#navbar2 a {
+  float: center;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-top:10px;
+  margin-left:1%;
+  margin-right:1%;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  font-family: Helvetica Neue, Serif;
+}
+
+#navbar2 a:hover {
+  color: grey;
+  font-family: Helvetica Neue, Serif;
+}
+#navbar2white {
+  position: fixed;
+  top: 0;
+  margin-top: 10px;
+  width: 100%;
+  transition: top 0.3s;
+  font-family: Helvetica Neue, Serif;
+  color: white;
+}
+
+#navbar2white a {
+  float: center;
+  text-align: center;
+  margin-top:10px;
+  margin-left:1%;
+  margin-right:1%;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Helvetica Neue, Serif;
+  color: white;
+  overflow: hidden;
+}
+
+#navbar2white a:hover {
+  color: grey;
+  font-family: Helvetica Neue, Serif;
 }
 }
 
-.aboutmargin {
-  margin-right: 10%;
-  margin-left: 10%;
-}
 .help {cursor: help;}
+
 .navigationbar {
   display: inline-block;
+  position:relative;
   width: 100%;
   height: 10%;
   line-height: 110px;
@@ -207,36 +259,9 @@ h1 {
   text-align:center;
     z-intex:9999;
   } 
-.headerme:hover {
-  color: #9933ff;
-  transition: 0.3s;
-}
-.headercontact:hover {
-  color: grey;
-  z-index: 9999;
-  transition: 0.3s;
-}
-.headerme {
-  font-family: NB Akademie Mono Std,Helvetica;
-  font-size: 130%;
-  float: left;
-  padding-left:40px;
-  margin-top:2%;
-  pointer-events:auto;
-}
-.headercontact {
-  font-family: NB Akademie Mono Std,Helvetica;
-  font-size: 130%;
-  float: right;
-  margin-top:2%;
-  padding-right: 40px;
-}
-.responsive { 
-  width: 50%;
-  height: auto;
-}
 
-.column:last-child {
+/* Title label */
+/*.column:last-child {
   padding-bottom: 60px;
 }
 .column::after {
@@ -253,9 +278,9 @@ h1 {
   margin-top:25px;
   left: 0;
   display: block;
-  color: grey;
-  font-family:NB Akademie Mono Std,Helvetica;
-  font-size: 45%;
+  color: black;
+  font-family: Lausanne, Helvetica, Serif;
+  font-size: 80%;
   text-decoration: none;
   text-align: center;
   -webkit-transition: .3s ease-in-out;
@@ -272,10 +297,10 @@ figure {
 figure:hover+span {
   margin-bottom: 30px;
   opacity: 1;
-}
+}*/
 
 /*click outline*/
-    p {font-family: NB Akademie Mono Std,Helvetica;
+    p {font-family: Helvetica Neue, Serif;
         font-size: 5vw;}
         a:link {
       text-decoration: none;
@@ -293,35 +318,51 @@ figure:hover+span {
       text-decoration: none;
     }
 
-h1 {font-family: NB Akademie Mono Std,Helvetica;
-  font-weight: bold;
+/* Type */
+h1 {font-family: Helvetica Neue, Serif;
+  font-weight: normal;
   font-size: 100%;
   text-align:justify;
 }
-h2 {font-family: helvetica;
+h2 {font-family: Helvetica Neue, Serif;
   font-weight: 100;
-  font-size: 85%;
+  font-size: 100%;
   color: grey;
 }
-h3 {font-family: helvetica;
+h3 {font-family: Helvetica Neue, Serif;
   font-weight: 50;
   font-size: 100%;
   line-height: 1.6;
+  font-weight: normal;
 }
 
-h4 { font-family: helvetica;
+h4 { font-family: Helvetica Neue, Serif;
   font-weight: 100;
   color: grey;
-  font-size: 85%;
+  font-size: 90%;
   font-style: italic;}
 
-h5  {font-family: helvetica;
+h5  {font-family: Helvetica Neue, Serif;
   font-weight: 50;
-  font-size: 15px;
+  font-size: 21px;
   line-height: 1.6;
   max-width: 1200px;
   margin: auto;
   margin-left: 7%;
+}
+
+.aboutdescription {
+  margin-right: 50%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  max-width: 1200px;
+  margin-top:1%;
+  position: relative;
+}
+.aboutdescription2 {
+  margin-left:5%;
+  width: 100%;
+  float: left;
 }
 
 img {
@@ -330,41 +371,9 @@ img {
   margin-right: 100%;
   }
 
-
-.img1 { background-image: url("sequence/5.jpg"); }
-div.a {
-  text-align: center;
-}
-.header{
-  display: inline-block;
-}
-.subheader {
-  display: inline-block;
-  grid-area: "main"
-}
-.aboutdescription {
-  margin-right: 50%;
-  margin-left: 8%;
-  max-width: 1200px;
-  margin-top:1%;
-}
-.aboutdescription2 {
-  margin-left:5%;
-  width: 100%;
-  float: left;
-}
-
-.grid-container{
-  display: grid;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.no-italics {
-    font-style: normal;   
-}
-#navbarlogo {
+/*Navigation bar*/
+/*#navbarlogo {
   position: fixed;
-  top: 0;
   width: 100%;
   display: block;
 }
@@ -373,13 +382,11 @@ div.a {
   float: left;
   display: block;
   text-align: center;
-  padding: 10px;
-}
-
+  margin-top:20px;
+}*/
 
 #navbar {
-  position: fixed;
-  top: 0;
+  position: relative;
   width: 100%;
   display: block;
   transition: top 0.3s;
@@ -388,17 +395,16 @@ div.a {
 #navbar a {
   float: right;
   display: block;
-  margin-top:10px;
+  margin-top:20px;
   margin-right:9%;
-  text-decoration: none;
   font-size: 17px;
-  color: black;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
+  position: relative;
 }
 
 #navbar a:hover {
   color: grey;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
 }
 #navbar2 {
   position: fixed;
@@ -406,7 +412,7 @@ div.a {
   padding: 10px;
   width: 100%;
   transition: top 0.3s;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
 }
 
 #navbar2 a {
@@ -419,26 +425,25 @@ div.a {
   margin-right:9%;
   text-decoration: none;
   font-size: 17px;
-  color: black;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
 }
 
 #navbar2 a:hover {
   color: grey;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
 }
 #navbar2white {
   position: fixed;
-  top: 0;
   padding: 10px;
   width: 100%;
   transition: top 0.3s;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
   color: white;
 }
 
 #navbar2white a {
   float: center;
+  display: inline-block;
   text-align: center;
   padding: 10px;
   margin-top:10px;
@@ -446,12 +451,59 @@ div.a {
   margin-right:9%;
   text-decoration: none;
   font-size: 17px;
-  color: black;
-  font-family: Helvetica;
-  color: white;
+  font-family: Helvetica Neue, Serif;
+  color:white;
 }
 
 #navbar2white a:hover {
   color: grey;
-  font-family: Helvetica;
+  font-family: Helvetica Neue, Serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-weight:bold;
+  font-family: Helvetica Neue, Serif;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.subtext {
+  color: black;
+  font-family: Helvetica Neue, Serif;
+  font-size: 16px;
+  font-weight:lighter;
+  padding: 10px ;
 }
