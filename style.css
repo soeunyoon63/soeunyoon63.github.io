@@ -68,228 +68,6 @@ html, body {
   padding: 5px ;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 96%;
-    margin-left:2%;
-  }
-  h3 {font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-    font-weight: 50;
-    font-size: 100%;
-    line-height: 1.6;
-    font-weight: normal;
-    float:none;
-    min-width:100%;
-    text-align:left;
-  }
-  h5  {font-family: lausanne, Helvetica Neue, Serif;
-    font-weight: 50;
-    font-size: 21px;
-    line-height: 1.6;
-    max-width: 1200px;
-    margin: auto;
-    margin-left: 7%;
-    text-align:left;
-  }
-  .aboutdescription {
-  padding-top: 150px;
-  left: 0;
-  width: 90%;
-  text-align: left;
-  position: relative;
-}
-#navbar {
-  visibility: hidden;
-}
-
-#navbar a {
- visibility: hidden;
-}
-
-#navbar a:hover {
-  visibility: hidden;
-}
-#navbar2 {
-  position: fixed;
-  top: 0;
-  padding: 10px;
-  width: 100%;
-  transition: top 0.3s;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-
-}
-
-#navbar2 a {
-  float: center;
-  display: inline-block;
-  text-align: center;
-  padding: 10px;
-  margin-top:10px;
-  margin-left:1%;
-  margin-right:1%;
-  text-decoration: none;
-  font-size: 10px;
-  color: black;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-}
-
-#navbar2 a:hover {
-  color: #9B30FF;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-}
-#navbar2white {
-  position: fixed;
-  top: 0;
-  margin-top: 10px;
-  width: 0%;
-  transition: top 0.3s;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-  color: white;
-}
-
-#navbar2white a {
-  float: center;
-  text-align: center;
-  margin-top:10px;
-  margin-left:1%;
-  margin-right:1%;
-  text-decoration: none;
-  font-size: 5px;
-  color: black;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-  color: white;
-  overflow: hidden;
-}
-
-#navbar2white a:hover {
-  color: #9B30FF;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-}
-}
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 96%;
-    margin-left:2%;
-  }
-  h3 {font-family: Helvetica Neue, Serif;
-    font-weight: 50;
-    font-size: 100%;
-    line-height: 1.6;
-    font-weight: normal;
-    float:none;
-    min-width:100%;
-    text-align:left;
-  }
-  h5  {font-family: lausanne, Helvetica Neue, Serif;
-    font-weight: 50;
-    font-size: 21px;
-    line-height: 1.6;
-    max-width: 1200px;
-    margin: auto;
-    margin-left: 7%;
-    text-align:left;
-  }
-  .aboutdescription {
-  padding-top: 50px;
-  margin-bottom: 50px;
-  width: 90%;
-  font-weight:normal;
-  text-align: left;
-  position: relative;
-}
-  .main2 {
-  max-width: 1200px;
-  margin: auto;
-  margin-top:10%;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top:15%;
-}
-/*#navbarlogo {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: inline-block;
-  position: relative;
-}
-
-#navbarlogo a {
-  float: fixed;
-  display: inline-block;
-  text-align: center;
-  padding: 10px;
-  margin-top:20px;
-  position: relative;
-}*/
-#navbar {
-  visibility: hidden;
-}
-
-#navbar a {
- visibility: hidden;
-}
-
-#navbar a:hover {
-  visibility: hidden;
-}
-#navbar2 {
-  position: fixed;
-  top: 0;
-  padding: 10px;
-  width: 100%;
-  transition: top 0.3s;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-}
-
-#navbar2 a {
-  float: center;
-  display: inline-block;
-  text-align: center;
-  padding: 10px;
-  margin-top:10px;
-  margin-left:1%;
-  margin-right:1%;
-  text-decoration: none;
-  font-size: 12px;
-  color: black;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-}
-
-#navbar2 a:hover {
-  color: #9B30FF;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-}
-#navbar2white {
-  position: fixed;
-  top: 0;
-  margin-top: 10px;
-  width: 100%;
-  transition: top 0.3s;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-  color: white;
-}
-
-#navbar2white a {
-  float: center;
-  text-align: center;
-  margin-top:10px;
-  margin-left:1%;
-  margin-right:1%;
-  text-decoration: none;
-  font-size: 12px;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-  color: white;
-  overflow: hidden;
-}
-
-#navbar2white a:hover {
-  color: #9B30FF;
-  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
-}
-}
-
 .help {cursor: help;}
 
 .navigationbar {
@@ -561,4 +339,253 @@ img {
   font-size: 17px;
   font-weight:lighter;
   padding: 10px ;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 960px) {
+  .column {
+    width: 95%;
+    margin-left:5%;
+  }
+  .text {
+    color: black;
+    font-weight:bold;
+    font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+    font-size: 17px;
+    padding: 16px 32px;
+  }
+  .subtext {
+    color: black;
+    font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+    font-size: 17px;
+    font-weight:lighter;
+    padding: 10px ;
+  }
+  h3 {font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+    font-weight: 50;
+    font-size: 21px;
+    line-height: 1.6;
+    font-weight: normal;
+    float:none;
+    min-width:100%;
+    text-align:left;
+  }
+  h5  {font-family: lausanne, Helvetica Neue, Serif;
+    font-weight: 50;
+    font-size: 31px;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: auto;
+    margin-left: 7%;
+    text-align:left;
+  }
+  .aboutdescription {
+  padding-top: 150px;
+  left: 0;
+  width: 90%;
+  text-align: left;
+  position: relative;
+}
+#navbar {
+  visibility: hidden;
+}
+
+#navbar a {
+ visibility: hidden;
+}
+
+#navbar a:hover {
+  visibility: hidden;
+}
+#navbar2 {
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  transition: top 0.3s;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+
+}
+
+#navbar2 a {
+  float: center;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-top:10px;
+  margin-left:1%;
+  margin-right:1%;
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+}
+
+#navbar2 a:hover {
+  color: #9B30FF;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+}
+#navbar2white {
+  position: fixed;
+  top: 0;
+  margin-top: 10px;
+  width: 0%;
+  transition: top 0.3s;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+  color: white;
+}
+
+#navbar2white a {
+  float: center;
+  text-align: center;
+  margin-top:10px;
+  margin-left:1%;
+  margin-right:1%;
+  text-decoration: none;
+  font-size: 5px;
+  color: black;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+  color: white;
+  overflow: hidden;
+}
+
+#navbar2white a:hover {
+  color: #9B30FF;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+}
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 96%;
+    margin-left:2%;
+  }
+  .text {
+    color: black;
+    font-weight:bold;
+    font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+    font-size: 17px;
+    padding: 16px 32px;
+  }
+  .subtext {
+    color: black;
+    font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+    font-size: 17px;
+    font-weight:lighter;
+    padding: 10px ;
+  }
+  h3 {font-family: Helvetica Neue, Serif;
+    font-weight: 50;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: normal;
+    float:none;
+    min-width:100%;
+    text-align:left;
+  }
+  h5  {font-family: lausanne, Helvetica Neue, Serif;
+    font-weight: 50;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: auto;
+    margin-left: 7%;
+    text-align:left;
+  }
+  .aboutdescription {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  width: 90%;
+  font-weight:normal;
+  text-align: left;
+  position: relative;
+}
+  .main2 {
+  max-width: 1200px;
+  margin: auto;
+  margin-top:10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top:15%;
+}
+/*#navbarlogo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+#navbarlogo a {
+  float: fixed;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-top:20px;
+  position: relative;
+}*/
+#navbar {
+  visibility: hidden;
+}
+
+#navbar a {
+ visibility: hidden;
+}
+
+#navbar a:hover {
+  visibility: hidden;
+}
+#navbar2 {
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  transition: top 0.3s;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+}
+
+#navbar2 a {
+  float: center;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-top:10px;
+  margin-left:12%;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+}
+
+#navbar2 a:hover {
+  color: #9B30FF;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+}
+#navbar2white {
+  position: fixed;
+  top: 0;
+  margin-top: 10px;
+  width: 100%;
+  transition: top 0.3s;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+  color: white;
+}
+
+#navbar2white a {
+  float: center;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-top:10px;
+  margin-left:12%;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+  color: white;
+  overflow: hidden;
+}
+
+#navbar2white a:hover {
+  color: #9B30FF;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+}
 }
