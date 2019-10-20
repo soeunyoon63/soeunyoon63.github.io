@@ -537,7 +537,6 @@ img {
 #navbar2 {
   position: fixed;
   top: 0;
-  padding: 10px;
   width: 100%;
   transition: top 0.3s;
   font-family: akzidenz-grotesk,Helvetica Neue, Serif;
@@ -547,9 +546,9 @@ img {
   float: center;
   display: inline-block;
   text-align: center;
-  padding: 10px;
+  pmargin-bottom:10px;
   margin-top:10px;
-  margin-left:12%;
+  margin-left:2%;
   text-decoration: none;
   font-size: 17px;
   color: black;
@@ -574,9 +573,9 @@ img {
   float: center;
   display: inline-block;
   text-align: center;
-  padding: 10px;
+  margin-bottom:10px;
   margin-top:10px;
-  margin-left:12%;
+  margin-left:2%;
   text-decoration: none;
   font-size: 17px;
   font-family: akzidenz-grotesk,Helvetica Neue, Serif;
