@@ -2,12 +2,19 @@ html, body {
   margin: 0;
   padding: 0;
   border:0;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: lausanne;
+  src: url(lausanne.otf);
+}
+@font-face {
+  font-family: akzidenz-grotesk;
+  src: url(akzidenz-grotesk.otf);
+}
 /* Center website */
 .main {
   max-width: 1200px;
@@ -40,7 +47,7 @@ html, body {
   float: left;
   width: 50%;
 }
-/* Clear floats after rows */ 
+/* Clear floats after rows */
 .row:after {
   content: "";
   display: table;
@@ -67,6 +74,15 @@ html, body {
     width: 96%;
     margin-left:2%;
   }
+  h3 {font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+    font-weight: 50;
+    font-size: 100%;
+    line-height: 1.6;
+    font-weight: normal;
+    float:none;
+    min-width:100%;
+    text-align:justify;
+  }
   .aboutdescription {
   padding-top: 150px;
   left: 0;
@@ -91,7 +107,7 @@ html, body {
   padding: 10px;
   width: 100%;
   transition: top 0.3s;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
 
 }
 
@@ -106,12 +122,12 @@ html, body {
   text-decoration: none;
   font-size: 10px;
   color: black;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
 }
 
 #navbar2 a:hover {
-  color: grey;
-  font-family: Helvetica Neue, Serif;
+  color: #9B30FF;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
 }
 #navbar2white {
   position: fixed;
@@ -119,7 +135,7 @@ html, body {
   margin-top: 10px;
   width: 0%;
   transition: top 0.3s;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
   color: white;
 }
 
@@ -132,14 +148,14 @@ html, body {
   text-decoration: none;
   font-size: 5px;
   color: black;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
   color: white;
   overflow: hidden;
 }
 
 #navbar2white a:hover {
-  color: grey;
-  font-family: Helvetica Neue, Serif;
+  color: #9B30FF;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
 }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -148,7 +164,15 @@ html, body {
     width: 96%;
     margin-left:2%;
   }
-
+  h3 {font-family: Helvetica Neue, Serif;
+    font-weight: 50;
+    font-size: 100%;
+    line-height: 1.6;
+    font-weight: normal;
+    float:none;
+    min-width:100%;
+    text-align:justify;
+  }
   .aboutdescription {
   padding-top: 50px;
   margin-bottom: 50px;
@@ -198,7 +222,7 @@ html, body {
   padding: 10px;
   width: 100%;
   transition: top 0.3s;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
 }
 
 #navbar2 a {
@@ -212,12 +236,12 @@ html, body {
   text-decoration: none;
   font-size: 12px;
   color: black;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
 }
 
 #navbar2 a:hover {
-  color: grey;
-  font-family: Helvetica Neue, Serif;
+  color: #9B30FF;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
 }
 #navbar2white {
   position: fixed;
@@ -225,7 +249,7 @@ html, body {
   margin-top: 10px;
   width: 100%;
   transition: top 0.3s;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
   color: white;
 }
 
@@ -237,14 +261,14 @@ html, body {
   margin-right:1%;
   text-decoration: none;
   font-size: 12px;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
   color: white;
   overflow: hidden;
 }
 
 #navbar2white a:hover {
-  color: grey;
-  font-family: Helvetica Neue, Serif;
+  color: #9B30FF;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
 }
 }
 
@@ -259,7 +283,7 @@ html, body {
   position: sticky;
   text-align:center;
     z-intex:9999;
-  } 
+  }
 
 /* Title label */
 /*.column:last-child {
@@ -301,7 +325,7 @@ figure:hover+span {
 }*/
 
 /*click outline*/
-    p {font-family: Helvetica Neue, Serif;
+    p {font-family: akzidenz-grotesk,Helvetica Neue, Serif;
         font-size: 5vw;}
         a:link {
       text-decoration: none;
@@ -313,43 +337,53 @@ figure:hover+span {
     }
     a:hover {
       text-decoration: none;
-      color: grey;
+      color: #9B30FF;
     }
     a:active {
       text-decoration: none;
     }
 
 /* Type */
-h1 {font-family: Helvetica Neue, Serif;
-  font-weight: normal;
-  font-size: 100%;
+
+h1 {font-family: lausanne, Helvetica Neu,Serif;
+  font-weight: bold;
+  font-size: 150%;
   text-align:justify;
+  margin-top:130px;
 }
-h2 {font-family: Helvetica Neue, Serif;
-  font-weight: 100;
+h2 {font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+  font-weight: 50;
   font-size: 100%;
   color: grey;
+  text-align:justify;
+  margin-top:10px
 }
-h3 {font-family: Helvetica Neue, Serif;
+h3 {font-family: akzidenz-grotesk, Helvetica Neue, Serif;
   font-weight: 50;
   font-size: 100%;
   line-height: 1.6;
   font-weight: normal;
+  float:right;
+  width:50%;
+  text-align:justify;
+  margin-bottom:130px;
 }
 
-h4 { font-family: Helvetica Neue, Serif;
+h4 { font-family: akzidenz-grotesk, Helvetica Neue, Serif;
   font-weight: 100;
   color: grey;
   font-size: 90%;
-  font-style: italic;}
+  font-style: italic;
+  text-align:justify;}
 
-h5  {font-family: Helvetica Neue, Serif;
+h5  {font-family: lausanne, Helvetica Neue, Serif;
   font-weight: 50;
-  font-size: 21px;
+  font-size: 23px;
   line-height: 1.6;
   max-width: 1200px;
   margin: auto;
   margin-left: 7%;
+  text-align:justify;
 }
 
 .aboutdescription {
@@ -357,13 +391,15 @@ h5  {font-family: Helvetica Neue, Serif;
   margin-left: 5%;
   margin-bottom: 10%;
   max-width: 1200px;
-  margin-top:1%;
+  margin-top:5%;
   position: relative;
+  text-align:justify;
 }
 .aboutdescription2 {
   margin-left:5%;
   width: 100%;
   float: left;
+  text-align:justify;
 }
 
 img {
@@ -398,14 +434,14 @@ img {
   display: block;
   margin-top:20px;
   margin-right:9%;
-  font-size: 17px;
-  font-family: Helvetica Neue, Serif;
+  font-size: 21px;
+  font-family: akzidenz-grotesk, Helvetica Neue,Serif;
   position: relative;
 }
 
 #navbar a:hover {
-  color: grey;
-  font-family: Helvetica Neue, Serif;
+  color: #9B30FF;
+  font-family: akzidenz-grotesk, Helvetica Neue,Serif;
 }
 #navbar2 {
   position: fixed;
@@ -413,7 +449,7 @@ img {
   padding: 10px;
   width: 100%;
   transition: top 0.3s;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk, Helvetica Neue,Serif;
 }
 
 #navbar2 a {
@@ -425,20 +461,20 @@ img {
   margin-left:6%;
   margin-right:9%;
   text-decoration: none;
-  font-size: 17px;
-  font-family: Helvetica Neue, Serif;
+  font-size: 21px;
+  font-family: akzidenz-grotesk, Helvetica Neue,Serif;
 }
 
 #navbar2 a:hover {
-  color: grey;
-  font-family: Helvetica Neue, Serif;
+  color: #9B30FF;
+  font-family: akzidenz-grotesk, Helvetica Neue,Serif;
 }
 #navbar2white {
   position: fixed;
   padding: 10px;
   width: 100%;
   transition: top 0.3s;
-  font-family: Helvetica Neue, Serif;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
   color: white;
 }
 
@@ -451,14 +487,14 @@ img {
   margin-left:6%;
   margin-right:9%;
   text-decoration: none;
-  font-size: 17px;
-  font-family: Helvetica Neue, Serif;
+  font-size: 21px;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
   color:white;
 }
 
 #navbar2white a:hover {
-  color: grey;
-  font-family: Helvetica Neue, Serif;
+  color: #9B30FF;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
 }
 
 .container {
@@ -497,14 +533,14 @@ img {
 .text {
   color: black;
   font-weight:bold;
-  font-family: Helvetica Neue, Serif;
-  font-size: 16px;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+  font-size: 21px;
   padding: 16px 32px;
 }
 .subtext {
   color: black;
-  font-family: Helvetica Neue, Serif;
-  font-size: 16px;
+  font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+  font-size: 17px;
   font-weight:lighter;
   padding: 10px ;
 }

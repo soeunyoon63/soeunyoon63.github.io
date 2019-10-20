@@ -2,22 +2,27 @@
 <html>
 	<head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="UTF-8">
     <title>Soeun Yoon</title>
     <link rel="icon" href="sy.png" type="image/png">
     <link href="style.css" type="text/css" rel="stylesheet">
 	</head>
 
   <body>
+		<!-- partial:index.partial.html -->
+		<div id="canvas-wrapper" aria-label="floating"></div>
+		<!-- partial -->
+		  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script><script  src="./script.js"></script>
+
    <!---Navigation Bar--->
    <!-- <div id="navbarlogo">
    <figure><a class="active" href="index.html" ><img src="logo.png" style="width:5px, height:5px" alt="Soeun Yoon Logo" ></a>
    </div> -->
         <div id="navbar">
-          <a class="active" href="mailto:soeun0603@gmail.com"> 
+          <a class="active" href="mailto:soeun0603@gmail.com">
           CONTACT</a>
         </div>
-          
+
    <!---Portfolio--->
              <div class= aboutdescription>
              <h5>
@@ -27,7 +32,7 @@
            </h5>
            </div>
             <p1 class="help">
-             
+
              <div class=main>
               <div class="row">
               <div class="column">
@@ -104,7 +109,7 @@
      <div class="text">VIRUS INFECTION
      <div class="subtext">Coding, Typography</div>
  </div></div></div></div>
- 
+
 <div class="column">
   <div class="container">
     <a href="to forget list.html"><img src="images/to forget list/finalpostercover.jpg"  alt="FORGETLIST" class="image" style="width:100%"></a>
@@ -128,17 +133,17 @@
      <div class="text">PART 2: MOSQUITO BITES
      <div class="subtext">Motion, Conceptual</div>
      </div></div></div></div>
-     
+
   <!-- <div class="column">
     <div class="content">
        <div>
      <figure> <a href="typemotion.html"><img src="images/typemotion/typemotion.gif" alt="typemotion" style="width:100%"></a></figure>
      <span>FROM A to Z</span>
  </div></div></div> -->
- 
+
   <!---->
-  
-  <!----> 
+
+  <!---->
 <!--  <div class="column">
     <div class="content">
        <div>
@@ -151,17 +156,17 @@
      <span>MELTING SNOW SCARF</span>
  </div></div></div>
    </p1> -->
-      <script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-</script>
+	 <script>
+	 var prevScrollpos = window.pageYOffset;
+	 window.onscroll = function() {
+	 var currentScrollPos = window.pageYOffset;
+	   if (prevScrollpos > currentScrollPos) {
+	     document.getElementById("navbar2").style.top = "0";
+	   } else {
+	     document.getElementById("navbar2").style.top = "-50px";
+	   }
+	   prevScrollpos = currentScrollPos;
+	 }
+	 </script>
 </body>
 </html>
