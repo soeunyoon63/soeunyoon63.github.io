@@ -1,4 +1,4 @@
-/* 
+/*
  * 3D FLOATING TYPO
  * Made with ThreeJS - Enjoy!
  * https://threejs.org/
@@ -26,9 +26,9 @@ camera.position.x = farDist * -2;
 camera.position.z = 500;
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setClearColor("#ffffff"); // Backgrond Color - Blue
+renderer.setClearColor("#ffffff"); // Backgrond Color - White
 renderer.setPixelRatio(window.devicePixelRatio); // For HiDPI devices to prevent bluring output canvas
-renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setSize(window.innerWidth, 400);
 document.querySelector("#canvas-wrapper").appendChild(renderer.domElement);
 
 // CREATE CUBES
@@ -61,11 +61,11 @@ scene.add(group);
 const loader = new THREE.FontLoader();
 const textMesh = new THREE.Mesh();
 const createTypo = font => {
-  const word = "Hello!";
+  // const word = "Hello!";
   const typoProperties = {
-    font: font,
+    font: lausanne,
     size: cubeSize,
-    height: cubeSize / 2,
+    height: cubeSize ,
     curveSegments: 12,
     bevelEnabled: true,
     bevelThickness: 10,
@@ -123,7 +123,7 @@ const render = () => {
   group.rotation.z = rz;
   textMesh.rotation.x = rx;
   textMesh.rotation.y = ry;
-  textMesh.rotation.z = rx; // Happy accident :) 
+  textMesh.rotation.z = rx; // Happy accident :)
 
   renderer.render(scene, camera);
 };
