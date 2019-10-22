@@ -63,7 +63,7 @@ const textMesh = new THREE.Mesh();
 const createTypo = font => {
   // const word = "Hello!";
   const typoProperties = {
-    font: lausanne,
+    // font: lausanne,
     size: cubeSize,
     height: cubeSize ,
     curveSegments: 12,
