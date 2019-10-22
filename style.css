@@ -353,7 +353,7 @@ img {
   padding: 10px ;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1280px) {
   .column {
     width: 100%;
     margin:auto;
