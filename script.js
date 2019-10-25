@@ -128,7 +128,6 @@ const render = () => {
   renderer.render(scene, camera);
 };
 render();
-
 // RESIZE CANVAS
 /* This is buggy in Safari and iOS, needs further testing... */
 // const windowWidth = window.innerWidth;

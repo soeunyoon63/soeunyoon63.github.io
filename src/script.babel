@@ -1,6 +1,6 @@
 /*
  * 3D FLOATING TYPO
- * Made with ThreeJS - Enjoy!
+ * Made with ThreeJS
  * https://threejs.org/
  *
  * Move the cursor to zoom in/out and float around the cubed space.
@@ -28,7 +28,7 @@ camera.position.z = 500;
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setClearColor("#ffffff"); // Backgrond Color - Blue
 renderer.setPixelRatio(window.devicePixelRatio); // For HiDPI devices to prevent bluring output canvas
-renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setSize(window.innerWidth, window.innerHeight/2);
 document.querySelector("#canvas-wrapper").appendChild(renderer.domElement);
 
 // CREATE CUBES
@@ -65,7 +65,7 @@ const createTypo = font => {
 	const typoProperties = {
 		font: font,
 		size: cubeSize,
-		height: cubeSize / 2,
+		height: cubeSize / 4,
 		curveSegments: 12,
 		bevelEnabled: true,
 		bevelThickness: 10,
@@ -90,7 +90,7 @@ let mouseX = 0;
 let mouseY = 0;
 const mouseFX = {
 	windowHalfX: window.innerWidth / 2,
-	windowHalfY: window.innerHeight / 2,
+	windowHalfY: window.innerHeight / 8,
 	coordinates: function(coordX, coordY) {
 		mouseX = (coordX - mouseFX.windowHalfX) * 10;
 		mouseY = (coordY - mouseFX.windowHalfY) * 10;

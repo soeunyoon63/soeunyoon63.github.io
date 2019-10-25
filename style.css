@@ -136,31 +136,31 @@ figure:hover+span {
 h1 {font-family: lausanne, Helvetica Neu,Serif;
   font-weight: bold;
   font-size: 150%;
-  text-align:justify;
+  text-align:left;
   margin-top:130px;
-  padding-left:3%;
-  padding-right:3%;
+  padding-left:5%;
+  padding-right:5%;
 }
 h2 {font-family: akzidenz-grotesk,Helvetica Neue, Serif;
   font-weight: 50;
   font-size: 100%;
   color: grey;
-  text-align:justify;
+  text-align:left;
   margin-top:10px;
-  padding-left:3%;
-  padding-right:3%;
+  padding-left:5%;
+  padding-right:5%;
 }
 h3 {font-family: akzidenz-grotesk, Helvetica Neue, Serif;
   font-weight: 50;
-  font-size: 100%;
+  font-size: 105%;
   line-height: 1.6;
   font-weight: normal;
   float:right;
-  width:50%;
-  text-align:justify;
+  width:60%;
+  text-align:left;
   margin-bottom:130px;
-  padding-left:3%;
-  padding-right:3%;
+  padding-left:10%;
+  padding-right:10%;
 }
 
 h4 { font-family: akzidenz-grotesk, Helvetica Neue, Serif;
@@ -175,17 +175,16 @@ h4 { font-family: akzidenz-grotesk, Helvetica Neue, Serif;
 
 h5  {font-family: lausanne, Helvetica Neue, Serif;
   font-weight: 50;
-  font-size: 23px;
+  font-size: 180%;
   line-height: 1.6;
-  text-align:justify;
-  margin-left:-10%;
+  text-align:left;
+  margin-left:-6%;
 }
 
 .aboutdescription {
-  margin-right: 50%;
+  margin-right: 30%;
   margin-left: 5%;
   margin-bottom: 10%;
-  max-width: 1200px;
   margin-top:5%;
   position: relative;
   text-align:justify;
@@ -246,14 +245,16 @@ img {
   margin-top:20px;
   margin-right:9%;
   font-size: 21px;
+  font-weight:bold;
+  color: #9B30FF;
   font-family: akzidenz-grotesk, Helvetica Neue,Serif;
   position: relative;
 }
 
-#navbar a:hover {
+/* #navbar a:hover {
   color: #9B30FF;
   font-family: akzidenz-grotesk, Helvetica Neue,Serif;
-}
+} */
 #navbar2 {
   position: fixed;
   top: 0;
