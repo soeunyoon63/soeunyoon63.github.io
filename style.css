@@ -81,15 +81,16 @@ html, body {
   background-color: white;
   cursor: pointer;
   font-size: 90%;
+  color: black;
 }
 
 .btn:hover {
   background-color: #f3f3f3;
+  color: #9B30FF;
 }
 
 .btn.active {
- color: #9B30FF;
- border-style: solid;
+ color: #black;
 }
 
 /*cursor*/
