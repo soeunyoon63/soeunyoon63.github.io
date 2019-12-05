@@ -90,7 +90,7 @@ html, body {
 }
 
 .btn.active {
- color: #black;
+ color: #9B30FF;
 }
 
 /*cursor*/
@@ -112,7 +112,8 @@ html, body {
       color: #9B30FF;
     }
     a:active {
-      text-decoration: none;
+      color: #9B30FF;
+      outline:3px;
     }
 
 /* Type */
