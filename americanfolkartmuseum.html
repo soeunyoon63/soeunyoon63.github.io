@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Soeun Yoon</title>
+   <link rel="icon" href="sy.png" type="image/png">
+  <link href="style.css" type="text/css" rel="stylesheet">
+ </head>
+<body>
+ <!---Navigation Bar--->
+ <div id="navbar2">
+   <a class="active" href= "index.html">WORK </a>
+    <a class="active" href= "about.html">ABOUT </a>
+    <a class="active" style="float:right; margin-right:3%" href="mailto:syoon07@risd.edu"> CONTACT</a>
+ </div>
+
+<!---Header--->
+<div class="main">
+  <div class=row>
+<img src="images/americanfolkartmuseum/dog.gif" alt="gif" class="padding" >
+    <h1 class= header><a href= "index.html"> AMERICAN FOLK ART MUSEUM</a></h1>
+    <h2>2019</h2>
+    <h2>Brand Identity, Motion</h2>
+<h3> This is a rebranding project for American Folk Art Museum located in New York. The logo represents the exterior of the museum building.
+</h3>
+<br> <br>
+
+<!---Portfolio--->
+<div class=padding>
+<img src="images/americanfolkartmuseum/logo.jpg" alt="1">
+<img src="images/americanfolkartmuseum/styleguide.jpg" alt="1">
+<img src="images/americanfolkartmuseum/dog2.gif" alt="2" class="two">
+<img src="images/americanfolkartmuseum/duck.gif" alt="1"class="two">
+<img src="images/americanfolkartmuseum/ticket.png" alt="3">
+<img src="images/americanfolkartmuseum/tote.jpg" alt="5" class="two">
+<img src="images/americanfolkartmuseum/tote2.jpg" alt="5" class="two">
+<img src="images/americanfolkartmuseum/id.jpg" alt="4">
+<img src="images/americanfolkartmuseum/exterior.png" alt="4" class="two">
+<img src="images/americanfolkartmuseum/banner.gif" alt="4" class="two" style="width:22%; height:22%;">
+<img src="images/americanfolkartmuseum/logoiteration.jpg" alt="4">
+
+<!-- <img src="images/whatcheer/6.jpg" alt="6"> -->
+</div>
+<!-- <br><br><br><br><br><br> -->
+<!---Back to Menu--->
+<!-- <p><a href= "index.html"><div align="center"> &larr; </div></p> -->
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar2").style.top = "0";
+  } else {
+    document.getElementById("navbar2").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+</body>
+</html>
