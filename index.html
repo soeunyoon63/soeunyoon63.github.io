@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
 
     <title>Soeun Yoon</title>
     <link rel="icon" href="sy.png" type="image/png">
     <link href="style.css" type="text/css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	</head>
+
   <body>
 		<!-- partial:index.partial.html -->
 		<div id="canvas-wrapper" aria-label="floating"></div>
@@ -27,8 +29,7 @@ She loves to create all types of experimental design with focus on UI/UX and bra
 <div class="main">
 <hr>
 <div id="myBtnContainer">
-	<button class="btn active">Type of Work</button>
-  <button class="btn" onclick="filterSelection('all')">All</button>
+  <button class="btn" onclick="filterSelection('all')" style="color:#9B30FF;">All</button>
   <button class="btn" onclick="filterSelection('UI/UX')"> UI/UX <sup>3</sup></button>
   <button class="btn" onclick="filterSelection('Brand Identity')"> Brand Identity <sup>5</sup></button>
   <button class="btn" onclick="filterSelection('Print')"> Print &amp; Product <sup>3</sup></button>
@@ -140,55 +141,51 @@ She loves to create all types of experimental design with focus on UI/UX and bra
 <!-- END MAIN -->
 </div>
   <!---->
-<!-- <div class="column">
-  <div class="container">
-         <a href="im curious.html"><img src="images/curious/ENORMITY2.gif" alt="im curious" class="image" style="width:100%"></a>
-     <div class="middle">
-     <div class="text">PART 1: MOSQUITO BITES
-     <div class="subtext">Product Design, Motion</div>
- </div></div></div></div> -->
- <!---->
-<!-- <div class="column">
-  <div class="container">
-     <a href="im curious2.html"><img src="images/curious2/1.gif" alt="im curious2" class="image" style="width:100%"></a>
-     <div class="middle">
-     <div class="text">PART 2: MOSQUITO BITES
-     <div class="subtext">Motion, Conceptual</div>
-     </div></div></div></div> -->
+	<script>
+	filterSelection("all")
+	function filterSelection(c) {
+	  var x, i;
+	  x = document.getElementsByClassName("column");
+	  if (c == "all") c = "";
+	  for (i = 0; i < x.length; i++) {
+	    w3RemoveClass(x[i], "show");
+	    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+	  }
+	}
 
-  <!-- <div class="column">
-    <div class="content">
-       <div>
-     <figure> <a href="typemotion.html"><img src="images/typemotion/typemotion.gif" alt="typemotion" style="width:100%"></a></figure>
-     <span>FROM A to Z</span>
- </div></div></div> -->
+	function w3AddClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+	  }
+	}
 
-  <!---->
+	function w3RemoveClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+	    while (arr1.indexOf(arr2[i]) > -1) {
+	      arr1.splice(arr1.indexOf(arr2[i]), 1);
+	    }
+	  }
+	  element.className = arr1.join(" ");
+	}
 
-  <!---->
-<!--  <div class="column">
-    <div class="content">
-       <div>
-     <figure> <a href="logotype.html"><img src="images/logotype/logotype mockup.jpg" alt="logotype book" style="width:100%"></a></figure>
-     <span>LOGOTYPE BOOK</span>
-     <div class="column">
-    <div class="content">
-       <div> -->
-      <!--  <figure> <a href="scarf.html"><img src="images/textile/2.png" alt="scraf" style="width:100%"></a></figure>
-     <span>MELTING SNOW SCARF</span>
- </div></div></div>
-   </p1> -->
-	 <!-- <script>
-	 var prevScrollpos = window.pageYOffset;
-	 window.onscroll = function() {
-	 var currentScrollPos = window.pageYOffset;
-	   if (prevScrollpos > currentScrollPos) {
-	     document.getElementById("navbar2").style.top = "0";
-	   } else {
-	     document.getElementById("navbar2").style.top = "-50px";
-	   }
-	   prevScrollpos = currentScrollPos;
-	 }
-	 </script> -->
+
+	// Add active class to the current button (highlight it)
+	var btnContainer = document.getElementById("myBtnContainer");
+	var btns = btnContainer.getElementsByClassName("btn");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function(){
+	    var current = document.getElementsByClassName("active");
+	    current[0].className = current[0].className.replace(" active", "");
+	    this.className += " active";
+	  });
+	}
+	</script>
+
 </body>
 </html>
