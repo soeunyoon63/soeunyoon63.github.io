@@ -291,6 +291,16 @@ img {
     width: 100%;
     margin:auto;
   }
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 100%;
+    color: black;
+    font-family: akzidenz-grotesk,Helvetica Neue, Serif;
+  }
   h1 {font-family: lausanne, Helvetica Neu,Serif;
     font-weight: bold;
     font-size: 150%;
@@ -358,6 +368,16 @@ img {
   .column {
     width: 100%;
     margin: auto;
+  }
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 100%;
+    color: black;
+    font-family: akzidenz-grotesk,Helvetica Neue, Serif;
   }
 
   h1 {font-family: lausanne, Helvetica Neu,Serif;
