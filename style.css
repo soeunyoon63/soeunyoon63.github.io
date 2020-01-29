@@ -179,6 +179,15 @@
     grid-column: 10 / span 6;
     margin-top:5%;
   }
+  .poster4 {
+    grid-column: 7 / span 7;
+    margin-left:-12%;
+  }
+  .poster5 {
+    grid-column: 2 / span 5;
+    margin-right:-3%;
+  }
+
 
   .one1 {
     grid-column: 2 / span 4;
