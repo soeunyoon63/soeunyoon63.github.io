@@ -315,6 +315,30 @@
   color: #9B30FF;
   font-family: akzidenz-grotesk, Helvetica Neue,sans-serif;
 }
+#navbar2 {
+  position: relative;
+  top:0;
+  width: 100%;
+  display: inline-block;
+  transition: top 0.3s;
+}
+
+#navbar2 a {
+  float: right;
+  display: block;
+  margin-top:1%;
+  margin-right:5%;
+  font-size: 120%;
+  font-family: Helvetica Neue,sans-serif;
+  color:black;
+  font-weight:normal;
+  position: relative;
+}
+
+#navbar2 a:hover {
+color: #9B30FF;
+font-family: akzidenz-grotesk, Helvetica Neue,sans-serif;
+}
 
 .two {
     width: 50%;
