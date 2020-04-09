@@ -28,7 +28,7 @@ camera.position.z = 500;
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setClearColor("#ffffff"); // Backgrond Color - White
 renderer.setPixelRatio(window.devicePixelRatio); // For HiDPI devices to prevent bluring output canvas
-renderer.setSize(window.innerWidth, 250);
+renderer.setSize(window.innerWidth, 400);
 document.querySelector("#canvas-wrapper").appendChild(renderer.domElement);
 
 // CREATE CUBES
