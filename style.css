@@ -388,14 +388,33 @@ li a:hover {
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 767px) {
   .wrapperimg {
     margin-top: 25%;
   }
  .main {
    margin:0%;
  }
-
+ ul {
+   list-style-type: none;
+   overflow: hidden;
+   font-family: 'Lato', Helvetica Neue,sans-serif;
+   font-weight: bold;
+   margin-left: -7%;
+ }
+ h5 {
+ font-family: 'Lato', Helvetica Neu,sans-serif;
+ font-weight: normal;
+ margin-top: 45%;
+ font-size: 90%;
+ line-height: 1.2;
+ }
+ .aboutdescription {
+   margin-right: 10%;
+   margin-bottom: 3%;
+   margin-top:3%;
+   text-align:justify;
+ }
   .column {
     width: 100%;
     margin: auto;
