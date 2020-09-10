@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    <title>Soeun Yoon</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="icon" href="logo.png" type="png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	</head>
+<head>
+	<title>Soeun Yoon</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="logo.png" type="png">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
   <body style="background-color:black">
-    <div id="navbar2white">
-      <a class="active" href= "about.html">ABOUT </a>
-      <a class="active" href= "index.html">WORK </a>
+		<!---Navigation Bar--->
+<div id="navbar">
+<ul>
+<li style><a href="https://soeunyoon.com">SOEUN YOON</a></li>
+<li style="float:right;font-weight: normal"><a href="https://www.linkedin.com/in/soeun-y-3a9365133/" target="_blank">LinkedIn</a></li>
+<li style="float:right;font-weight: normal"><a href= "images/resume/SoeunYoon_resume.pdf" target="_blank">Resume</a></li>
+<li style="float:right;font-weight: normal"><a class="active"href="mailto:syoon07@risd.edu">Email</a></li>
+<li style="float:right;font-weight: normal; color: #9B30FF"><a>Get in Touch ☻</a></li>
+</ul>
 </div>
 
 
@@ -21,24 +27,25 @@
           <div class="item1">
             <h1 style="color:white">Cheez-it</h1>
             <h2 style="color:white; ">Print, Packaging</h2>
-            <h3 style="color:white; font-size:90%">2019</h3>
             </div>
           <div class="item2">
-            <h2 style="color:white; font-size:105%">Analyzing different styles of artists, I was asked to select a snack to redesign its package. I recreated the covers of Cheez-It crackers. I broke down core elements of style including typeface, shapes, image treatment and rule lines. Out of 10 style studies, I chose 3 designs and developed further into a real-life size mockups.
+            <h2 style="color:white; font-size:100%">Analyzing different styles of artists, I was asked to select to redesign a snack package. I recreated the covers of Cheez-It crackers. I broke down core elements of style including typeface, shapes, image treatment and rule lines.
           </h2></div>
           <div class="item3">
             <h3 style="color:white; font-weight:lighter"><b>Software Used</b></h3>
-            <h3 style="color:white; font-size:90%">Adobe Creative Suite</h3>
+            <h3 style="color:white;">Adobe Creative Suite</h3>
             </div>
 					</div>
-
+  <h2 class="subheader3" style="color:white">Cheez-It x Mitsuo Katsui</h2>
 	<div class="poster">
         <img src="images/cheezit/cheez2.jpg" alt="render1" width="100%">
-        <h2 class="textmargin" style="color:white; font-size:105%">Cheez-It x Mitsuo Katsui</h2>
-        <img src="images/cheezit/cheez1.jpg" alt="render2" width="100%;height=100%" class="img">
-				<h2 class="textmargin" style="color:white; font-size:105%">Cheez-It x Test Sheet + Italo Lupi</h2>
-				<img src="images/cheezit/cheez3.jpg" alt="render3" width="100%;height=100%" class="img">
-				<h2 class="textmargin" style="color:white; font-size:105%">Cheez-It x Qeim Jarem</h2>
+  <h2 class="subheader3" style="color:white">Cheez-It x Test Sheet + Italo Lupi</h2>
+	<div class="poster">
+        <img src="images/cheezit/cheez1.jpg" alt="render2" width="100%;height=100%" class="img"></div>
+<h2 class="subheader3" style="color:white">Cheez-It x Qeim Jarem</h2>
+				<div class="poster">
+				<img src="images/cheezit/cheez3.jpg" alt="render3" width="100%;height=100%" class="img"></div>
+
 				<img src="images/cheezit/qeim.png"style="width:100%;height=100%" class="img">
 		</div>
 			</body>
@@ -47,9 +54,9 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar2white").style.top = "0";
+    document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar2white").style.top = "-50px";
+    document.getElementById("navbar").style.top = "-10px";
   }
   prevScrollpos = currentScrollPos;
 }

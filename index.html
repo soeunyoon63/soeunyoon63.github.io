@@ -11,33 +11,66 @@
 
   <body>
 		<!-- partial:index.partial.html -->
-		<div id="canvas-wrapper" aria-label="floating"></div>
+		<!-- <div id="canvas-wrapper" aria-label="floating"></div> -->
 		<!-- partial -->
-		  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script><script  src="./script.js"></script>
+		  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script><script  src="./script.js"></script> -->
 
-			<div id="navbar2">
-      <a class="active"href="mailto:syoon07@risd.edu">CONTACT</a>
-      </div>
+			<!---Navigation Bar--->
+ <div id="navbar">
+	<ul>
+  <li><a href="https://soeunyoon.com">SOEUN YOON</a></li>
+  <li style="float:right;font-weight: normal"><a href="https://www.linkedin.com/in/soeun-y-3a9365133/" target="_blank">LinkedIn</a></li>
+  <li style="float:right;font-weight: normal"><a href= "images/resume/SoeunYoon_resume.pdf" target="_blank">Resume</a></li>
+  <li style="float:right;font-weight: normal"><a class="active"href="mailto:syoon07@risd.edu">Email</a></li>
+  <li style="float:right;font-weight: normal; color: #9B30FF "><a>Get in Touch ☻</a></li>
+  </ul>
+</div>
 
    <!---Portfolio--->
 
 <div class= aboutdescription>
-<h5><a class="active" href="http://soeunyoon.com/about"><u>Soeun Yoon</u></a> is pursuing a BFA degree in Graphic Design at <a href="https://www.risd.edu" target="_blank"> <u>RISD</u>. </a>
-She loves to create experimental design with focus on research-driven work. This website is created by her with HTML, CSS, and Javascript.</h5></div>
+<h5>Soeun Yoon is a designer pursuing a BFA in Graphic Design at <a href="https://www.risd.edu" target="_blank"> <u>Rhode Island School of Design</u>. </a>
+Her interest lies in user experience design with focus on solving human-centered problems.</h5>
+</div>
 <p1 class="help">
 	<!-- MAIN (Center website) -->
 <div class="main">
 <hr>
 <div id="myBtnContainer">
-  <button class="btn" onclick="filterSelection('all')" style="color:#9B30FF;">All</button>
+  <button class="btn" onclick="filterSelection('all')">All</button>
+	<button class="btn" onclick="filterSelection('UI/UX')"> UI/UX <sup>4</sup></button>
 	<button class="btn" onclick="filterSelection('Brand Identity')"> Brand Identity <sup>6</sup></button>
-  <button class="btn" onclick="filterSelection('UI/UX')"> UI/UX <sup>3</sup></button>
   <button class="btn" onclick="filterSelection('Print')"> Print <sup>4</sup></button>
   <button class="btn" onclick="filterSelection('3D')"> 3D/Motion</button>
 </div>
 
 <!-- <div class=main> -->
 <div class="row">
+
+	<div class="column UI/UX">
+	<div class="container">
+	<a href="http://soeunyoon.com/roomof"><img src="images/roomof/cover.jpg" alt="roomof" class="image" style="width:100%"></a>
+	 <h3>ROOMOF</h3>
+	</div>
+	</div>
+	  <div class="column UI/UX">
+		<div class="container">
+	<a href="http://soeunyoon.com/localyze"><img src="images/localyze/profile.jpg" alt="localyze" class="image" style="width:100%"></a>
+		 <h3>LOCALYZE</h3>
+	</div>
+	</div>
+	<div class="column UI/UX">
+		<div class="container">
+		<a href="http://soeunyoon.com/checkup"><img src="images/mental/checkupcover.png" alt="checkup" class="image" style="width:100%"></a>
+		<h3>CHECK UP</h3>
+	</div>
+	</div>
+	<div class="column UI/UX">
+	<div class="container">
+<a href="http://soeunyoon.com/theklab"><img src="images/theklab/comingsoon.jpg" alt="theklab" class="image" style="width:100%"></a>
+	 <h3>THEKLAB</h3>
+</div></div>
+
 <div class="column Brand Identity">
 <div class="container">
 <a href="http://soeunyoon.com/Hack@Brown"><img src="images/hack/fbanner.jpg" alt="Hack@Brown2020" class="image" style="width:100%"></a>
@@ -46,77 +79,58 @@ She loves to create experimental design with focus on research-driven work. This
 </div>
 <div class="column Brand Identity">
 <div class="container">
-<a href="http://soeunyoon.com/holdplease"><img src="images/Holdplease/twist.gif" alt="Hold, Please" class="image" style="width:100%"></a>
-<h3>HOLD, PLEASE/2019</h3>
-</div>
-</div>
-<div class="column Brand Identity">
-<div class="container">
-	<a href="http://soeunyoon.com/tapirexhibition"> <img src="images/tapir/cover.jpg" alt="TapirExhibition" class="image" style="width:100%"></a>
-<h3>TAPIR EXHIBITION/2020</h3>
-</div>
-</div>
-<div class="column Brand Identity">
-<div class="container">
-	<a href="http://soeunyoon.com/knoll"><video width="100%" playsinline autoplay loop muted class="image"> <source src="images/knoll/exhibition.mp4" type="video/mp4"></video></a>
-<h3>KNOLL/2020</h3>
+<a href="http://soeunyoon.com/holdplease"><img src="images/Holdplease/twist1.gif" alt="Hold, Please" class="image" style="width:100%"></a>
+<h3>HOLD, PLEASE</h3>
 </div>
 </div>
 <div class="column Brand Identity">
 <div class="container">
 <a href="http://soeunyoon.com/americanfolkartmuseum"><img src="images/americanfolkartmuseum/zoom.gif" alt="AmericanFolkArtMuseum" class="image" style="width:100%"></a>
-<h3>AMERICAN FOLK ART MUSEUM/2019</h3>
+<h3>AMERICAN FOLK ART MUSEUM</h3>
 </div>
 </div>
-
 <div class="column Brand Identity">
 <div class="container">
-<a href="http://soeunyoon.com/lemlem"><img src="images/lemlem/lemlemxmoncler2.jpg" alt="lemlem" class="image" style="width:100%"></a>
-<h3>lemlem/2019</h3>
+<a href="http://soeunyoon.com/lemlem"><img src="images/lemlem/cover.jpg" alt="lemlem" class="image" style="width:100%"></a>
+<h3>lemlem</h3>
+</div>
+</div>
+<div class="column Brand Identity">
+<div class="container">
+	<a href="http://soeunyoon.com/knoll"><video width="100%" playsinline autoplay loop muted class="image"> <source src="images/knoll/exhibition.mp4" type="video/mp4"></video></a>
+<h3>KNOLL</h3>
+</div>
+</div>
+<div class="column Brand Identity">
+<div class="container">
+	<a href="http://soeunyoon.com/tapirexhibition"> <img src="images/tapir/cover.jpg" alt="TapirExhibition" class="image" style="width:100%"></a>
+<h3>TAPIR EXHIBITION</h3>
 </div>
 </div>
 
-<div class="column UI/UX">
-<div class="container">
-<a href="http://soeunyoon.com/roomof"><img src="images/roomof/main.jpg" alt="roomof" class="image" style="width:100%"></a>
- <h3>ROOMOF/2020</h3>
-</div>
-</div>
-  <div class="column UI/UX">
-	<div class="container">
-<a href="http://soeunyoon.com/localyze"><img src="images/localyze/profile.jpg" alt="localyze" class="image" style="width:100%"></a>
-	 <h3>LOCALYZE/2019</h3>
-</div>
-</div>
-<div class="column UI/UX">
-	<div class="container">
-	<a href="http://soeunyoon.com/checkup"><img src="images/mental/1.jpg" alt="checkup" class="image" style="width:100%"></a>
-	<h3>CHECK UP/2018</h3>
-</div>
-</div>
 
     <div class="column Print&amp;Product">
   	<div class="container">
  <a href="http://soeunyoon.com/minimallife"><img src="images/minimallife/cover.jpg" alt="minimallife" class="image" style="width:100%"></a>
- 	 <h3>MINIMAL LIFE/2019</h3>
+ 	 <h3>MINIMAL LIFE</h3>
  </div></div>
 
 	 <div class="column Print&amp;Product">
 	 <div class="container">
     <a href="http://soeunyoon.com/colortheory"><img src="images/color theory/colortheory.jpg" alt="color" class="image" style="width:100%"></a>
-     <h3>COLOR THEORY/2019</h3>
+     <h3>COLOR THEORY</h3>
  </div></div>
 
  	<div class="column Print&amp;Product">
  	<div class="container">
- 		<a href="http://soeunyoon.com/cheez-it"><img src="images/cheezit/cheez2.jpg" alt="render" class="image" style="width:100%"></a>
- 		<h3>CHEEZ-IT/2019</h3>
+ 		<a href="http://soeunyoon.com/cheez-it"><img src="images/cheezit/cheezitcover.png" alt="render" class="image" style="width:100%"></a>
+ 		<h3>CHEEZ-IT</h3>
  </div></div>
 
  				<div class="column Print">
  				<div class="container">
         <a href="http://soeunyoon.com/dayscalendar"><img src="images/calendar/2.jpg" alt= "CALENDAR" class="image" style="width:100%"></a>
-     <h3>DAYS CALENDAR/2019</h3>
+     <h3>DAYS CALENDAR</h3>
   </div></div>
 
  <div class="column 3D">
@@ -194,6 +208,16 @@ She loves to create experimental design with focus on research-driven work. This
 	    this.className += " active";
 	  });
 	}
+	var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-10px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 	</script>
 
 </body>

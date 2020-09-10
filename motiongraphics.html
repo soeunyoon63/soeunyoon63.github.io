@@ -9,47 +9,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	</head>
   <body style="background-color:black">
-    <div id="navbar2white">
-      <a class="active" href= "about.html">ABOUT </a>
-      <a class="active" href= "index.html">WORK </a>
+		<!---Navigation Bar--->
+<div id="navbar">
+<ul>
+<li><a href="https://soeunyoon.com">SOEUN YOON</a></li>
+<li style="float:right;font-weight: normal"><a href="https://www.linkedin.com/in/soeun-y-3a9365133/" target="_blank">LinkedIn</a></li>
+<li style="float:right;font-weight: normal"><a href= "images/resume/SoeunYoon_resume.pdf" target="_blank">Resume</a></li>
+<li style="float:right;font-weight: normal"><a class="active"href="mailto:syoon07@risd.edu">Email</a></li>
+<li style="float:right;font-weight: normal; color: #9B30FF "><a>Get in Touch ☻</a></li>
+</ul>
 </div>
 
 
 <div class="wrapper">
-          <div class="item6">
+		<div class="wrapperimg">
+	<img src="images/typemotion/typemotion1.gif" alt="typemotion" width="100%"></div>
+          <div class="item1">
             <h1 style="color:white">3D/Motion Graphics</h1>
             <h2 style="color:white; ">Motion</h2>
-            <h3 style="color:white; font-size:90%">Ongoing</h3>
             </div>
-          <div class="item7">
-            <h2 style="color:white; font-size:105%">Series of experimentation with dimension, typography, and motion are updated regularly. The aim is to introduce a new sense of depth into design to deliver information efficiently.
+          <div class="item2">
+            <h2 style="color:white; font-size:100%">Series of experimentation with dimension, typography, and motion are updated regularly. The aim is to introduce a new sense of depth into design to deliver information efficiently.
           </h2></div>
           <div class="item3">
-            <h3 style="color:white; font-weight:lighter"><b>Software Used</b></h3>
-            <h3 style="color:white; font-size:90%">After Effects</h3>
-						<h3 style="color:white; font-size:90%">Cinema4D</h3>
+            <h3 style="color:white"><b>Software Used</b></h3>
+            <h3 style="color:white;">After Effects</h3>
+						<h3 style="color:white;">Cinema4D</h3>
 					</div></div>
 
 					<div class="wrapper">
 
 						<div class="poster1">
+							<video width="100%" playsinline autoplay loop muted style="margin-top:25%"><source src="images/experiment/hands.mp4" type="video/mp4"></video></div>
+								<div class="poster2">
+									<img src="images/experiment/mt.png" alt="png" width="100%" style="margin-top:25%"></div>
+
+						<div class="poster1">
 							<img src="images/experiment/onceupon.jpg" alt="jpg" width="100%"></div>
 							<div class="poster2">
-							<img src="images/experiment/onceupon2.jpg" alt="jpg" width="100%;height=100%" class="img" style="margin-bottom:25%"></div>
+							<img src="images/experiment/fire.jpg" alt="jpg" width="100%" style="margin-top:10%"></div>
 
-								<div class="poster1">
-									<video width="100%" playsinline autoplay loop muted style="margin-bottom:25%"><source src="images/experiment/hands.mp4" type="video/mp4"></video></div>
-										<div class="poster2">
-											<img src="images/experiment/mt.png" alt="png" width="100%"></div>
 
 											<div class="poster1">
-												<img src="images/experiment/fire.jpg" alt="jpg" width="100%" style="margin-bottom:25%"></div>
+												<img src="images/experiment/backtobasic.gif" alt="png" width="100%"></div>
 											<div class="poster2">
-           <video width="100%" playsinline autoplay loop muted style="margin-bottom:25%"><source src="images/experiment/earth.mp4" type="video/mp4"></video></div>						  
-	         <div class="poster1">
-							<video width="100%" playsinline autoplay loop muted><source src="images/experiment/beauty2.mp4" type="video/mp4"></video></div>
-								<div class="poster2">
-								<video width="100%" playsinline autoplay loop muted><source src="images/experiment/beauty.mp4" type="video/mp4"></video></div> -->
+           <video width="100%" playsinline autoplay loop muted style="margin-bottom:25%"><source src="images/experiment/earth.mp4" type="video/mp4"></video></div>
 
 
 								<!-- <div class="poster1">
@@ -57,11 +61,6 @@
 										<div class="poster2">
 													<video  width="100%" playsinline autoplay loop muted><source src="images/experiment/nail.mp4" type="video/mp4"></video></div> -->
 
-
-							<div class="poster1">
-							<img src="images/typemotion/typemotion.gif" alt="typemotion" width="100%;height=100%" class="img"></div>
-							<div class="poster2">
-								<img src="images/experiment/backtobasic.gif" alt="png" width="100%"></div>
 							<!-- <div class="poster1">
 								<img src="images/experiment/letter.gif" alt="png" width="100%"></div>
 									<div class="poster2">
@@ -71,4 +70,17 @@
 					</div>
 
     </body>
+		<script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+		    document.getElementById("navbar").style.top = "0";
+		  } else {
+		    document.getElementById("navbar").style.top = "-10px";
+		  }
+		  prevScrollpos = currentScrollPos;
+
+		}
+		</script>
     </html>

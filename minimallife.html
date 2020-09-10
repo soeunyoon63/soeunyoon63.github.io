@@ -9,9 +9,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	</head>
   <body style="background-color:black">
-    <div id="navbar2white">
-      <a class="active" href= "about.html">ABOUT </a>
-      <a class="active" href= "index.html">WORK </a>
+		<!---Navigation Bar--->
+<div id="navbar">
+<ul>
+<li><a href="https://soeunyoon.com">SOEUN YOON</a></li>
+<li style="float:right;font-weight: normal"><a href="https://www.linkedin.com/in/soeun-y-3a9365133/" target="_blank">LinkedIn</a></li>
+<li style="float:right;font-weight: normal"><a href= "images/resume/SoeunYoon_resume.pdf" target="_blank">Resume</a></li>
+<li style="float:right;font-weight: normal"><a class="active"href="mailto:syoon07@risd.edu">Email</a></li>
+<li style="float:right;font-weight: normal; color: #9B30FF "><a>Get in Touch ☻</a></li>
+</ul>
 </div>
 
 
@@ -21,10 +27,9 @@
           <div class="item1">
             <h1 style="color:white">Minimal Life</h1>
             <h2 style="color:white; ">Print, Typography</h2>
-            <h3 style="color:white; font-size:90%">2019</h3>
             </div>
           <div class="item2">
-            <h2 style="color:white; font-size:105%">Continuously witnessing the environmental change, I wanted to deliver that living minimally will not only benefit the environment but also can be adapted as a stylistic movement. Each page represents the expression of deduction, substitution, and redaction. I chose recycled newsprint to deliver the message more physically.
+            <h2 style="color:white; font-size:100%">Continuously witnessing the environmental change, I wanted to deliver that living minimally will not only benefit the environment but also can be adapted as a stylistic movement. Each page represents the expression of deduction, substitution, and redaction. I chose recycled newsprint to deliver the message more physically.
           </h2></div>
         <div class="item3">
           <h3 style="color:white"><b>Software Used</b></h3>
@@ -56,11 +61,12 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar2white").style.top = "0";
+    document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar2white").style.top = "-50px";
+    document.getElementById("navbar").style.top = "-10px";
   }
   prevScrollpos = currentScrollPos;
+
 }
 </script>
 
