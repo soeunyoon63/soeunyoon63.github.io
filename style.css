@@ -401,7 +401,7 @@ li a:hover {
    font-family: 'Lato', Helvetica Neue,sans-serif;
    font-weight: bold;
    margin-left: -7%;
-   font-size: 70%;
+   font-size: 75%;
  }
  li a {
    display: block;
@@ -413,13 +413,13 @@ li a:hover {
  font-family: 'Lato', Helvetica Neu,sans-serif;
  font-weight: normal;
  margin-top: 30%;
- font-size: 90%;
+ font-size: 80%;
  line-height: 1.2;
  }
  h3 {
    font-family: 'Lato', Helvetica Neu,sans-serif;
    font-weight: normal;
-   font-size:70%;
+   font-size:75%;
    line-height: 0.8;
  }
 
