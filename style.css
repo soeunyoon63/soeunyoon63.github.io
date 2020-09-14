@@ -416,6 +416,12 @@ li a:hover {
  font-size: 90%;
  line-height: 1.2;
  }
+ h3 {
+   font-family: 'Lato', Helvetica Neu,sans-serif;
+   font-weight: normal;
+   font-size:70%;
+   line-height: 0.8;
+ }
 
  .aboutdescription {
    margin-right: 10%;
