@@ -60,6 +60,21 @@ font-weight: bold;
   opacity: 0.3;
 }
 
+#navbar {
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  transition: top 0.3s;
+  padding-right: 6%;
+  background-color: white;
+}
+
+
+#navbar a:hover {
+color: #9B30FF;
+font-family: 'Lato', Helvetica Neue,sans-serif;
+}
 
 /* Style the buttons */
 .btn {
@@ -298,22 +313,6 @@ font-weight: bold;
     font-size:140%;
   }
 
-
-  #navbar {
-    position: fixed;
-    top:0;
-    left: 0;
-    width: 100%;
-    transition: top 0.3s;
-    padding-right: 6%;
-    background-color: white;
-  }
-
-
-#navbar a:hover {
-  color: #9B30FF;
-  font-family: 'Lato', Helvetica Neue,sans-serif;
-}
 
 ul {
   list-style-type: none;
