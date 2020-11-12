@@ -365,6 +365,7 @@ li a:hover {
 
 
   }
+/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 1280px) {
 
   .column {
@@ -505,46 +506,6 @@ li a:hover {
   margin-top:10%;
   font-size:140%;
 }
-
-}
-@media screen and (max-width: 414px) {
-  .aboutdescription {
-    margin-left:3%;
-  }
-  #navbar {
-    padding-left:2%;
-    padding-top:1%;
-  }
-
-}
-@media screen and (max-width: 360px) {
-  #navbar {
-    padding-left:0%;
-  }
-
-}
-@media screen and (max-width: 768px) {
-  .aboutdescription {
-    margin-top:15%;
-    padding-left:1%;
-  }
-  #navbar {
-    padding-right:5%;
-    padding-left:-3%;
-  }
-  .wrapperimg {
-    margin-top:10%;
-  }
-
-}
-@media screen and (max-width: 1024px) {
-  .aboutdescription {
-    margin-top:15%;
-  }
-  #navbar {
-    margin-left:-1%;
-  }
-
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (min-width:1501px) {
@@ -653,18 +614,8 @@ li a:hover {
   .aboutdescription {
     margin-right: 50%;
     margin-bottom: 3%;
-    margin-top:6%;
-    margin-left:5.75%;
+    margin-top:3%;
     position: relative;
     text-align:justify;
-  }
-  #navbar {
-    position: fixed;
-    top:0;
-    left: 1%;
-    width: 100%;
-    transition: top 0.3s;
-    padding-right: 6%;
-    background-color: white;
   }
   }
