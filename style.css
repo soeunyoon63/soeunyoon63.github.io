@@ -532,6 +532,9 @@ li a:hover {
     padding-right:5%;
     padding-left:-3%;
   }
+  .wrapperimg {
+    margin-top:10%;
+  }
 
 }
 @media screen and (max-width: 1024px) {
