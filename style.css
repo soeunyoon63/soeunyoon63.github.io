@@ -619,6 +619,7 @@ li a:hover {
     text-align:justify;
   }
   }
+/* Desktop 20, Mac Air */
   @media screen and (min-width:1502px) and (max-width:2000px) {
     .aboutdescription {
       margin-right: 50%;
