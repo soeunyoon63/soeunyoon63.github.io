@@ -619,3 +619,73 @@ li a:hover {
     text-align:justify;
   }
   }
+  @media screen and (min-width:1502px) and (max-width:2000px) {
+    .aboutdescription {
+      margin-right: 50%;
+      margin-bottom: 3%;
+      margin-top:5%;
+      position: relative;
+      text-align:justify;
+    }
+
+    .item1 {
+        grid-column: 2 / span 5;
+       margin-top:5%;
+    }
+    /* description */
+    .item2 {
+        grid-column: 8 / span 5;
+        grid-row:2;
+       margin-top:5%;
+    }
+    /* left tag */
+    .item3 {
+        grid-column: 8 / span 9;
+        grid-row: 3;
+
+    }
+    /* right tag */
+    .item4 {
+        grid-column: 10/ span 2;
+        grid-row: 3;
+
+    }
+    /* image */
+    .item5 {
+        grid-column: 8 / span 5;
+        margin-top:5%;
+        margin-left:5%;
+    }
+    .wrapperimg {
+      margin-left:10%;
+      margin-right:10%;
+    }
+    /* coverimage */
+    .wrapperimg {
+      grid-column: 2/ span 10;
+      grid-row: 1;
+      width:100%;
+      margin-top: 6%;
+    }
+    .subheader {
+      margin-left:10%;
+      margin-right:21%;
+      margin-top:10%;
+      font-size:140%;
+    }
+    .subheader2 {
+      margin-left:19%;
+      margin-right:7%;
+      margin-top:5%;
+      font-size:130%;
+    }
+    .subheader3 {
+      margin-left:19%;
+    }
+    .textmargin {
+      margin-left:50%;
+      margin-top: -3%;
+      margin-right:18%;;
+      margin-bottom:5%;
+    }
+    }
