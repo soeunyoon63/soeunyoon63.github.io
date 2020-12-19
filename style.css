@@ -526,7 +526,7 @@ create interesting effects.
 @media all and (max-width: 1600px) {
   #navbar {
     padding-left: 3%;
-    padding-right: 5%;
+    padding-right: 7.25%;
   }
   .aboutdescription{
     margin-top: 10%;
@@ -544,7 +544,7 @@ create interesting effects.
 @media all and (max-width: 1000px) {
   #navbar {
     padding-left: 1.5%;
-    padding-right: 10%;
+    padding-right: 4.5%;
   }
   .aboutdescription{
     margin-top: 10%;
