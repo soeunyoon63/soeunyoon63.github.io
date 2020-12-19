@@ -1,0 +1,257 @@
+* {
+    font-family: 'NeueHaasGrotesk-Roman', 'Helvetica Neue', "Helvetica", serif;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #fecf3b;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    background: #0D0D0D;
+    background-image: url('http://www.sfu.ca/~tmc21/Portfolio%20Images/portfolio-background-desktop.png');
+    background-size: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (max-width:850px) {
+    body {
+        background-image: url('http://www.sfu.ca/~tmc21/Portfolio%20Images/portfolio-background-mobile.png');
+    }
+}
+
+#background {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    position: fixed;
+}
+
+
+.nav-container {
+    padding-right: 0.75rem;
+}
+
+.nav-container a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    /*    transition: 0.3s ease-in-out;*/
+    cursor: crosshair;
+}
+
+a.navbutton:hover {
+    color: #fecf3b;
+}
+
+a.navbutton2:hover {
+    color: #fecf3b;
+}
+
+#bio {
+    height: 100vh;
+}
+
+#bio h1 {
+    position: relative;
+    top: 37.5vh;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+#bio h1 a {
+    color: #fecf3b;
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+#bio h1 a:hover {
+    color: white;
+}
+
+#project-list {
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+#project-list p.section-header {
+    color: #ffffff;
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 0.75rem
+}
+
+.line hr {
+    position: relative;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+#project-list .project-name h2 {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+#project-list .project-name a {
+    text-decoration: none;
+    color: white;
+    font-family: 'NeueHaasGrotesk-Medium';
+    font-weight: 400;
+}
+
+#project-list .project-name a:hover {
+    color: #fecf3b;
+    cursor: crosshair;
+}
+
+#project-list .project-description {
+    margin-top: 0.5rem;
+
+}
+
+#project-list .project-description p {
+    position: relative;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    margin-top: 0;
+}
+
+#project-list .project-type {
+    margin-top: 0.5rem;
+}
+
+#project-list .project-type p {
+    position: relative;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    margin: 0;
+}
+
+#footer {
+    position: relative;
+    /*margin-bottom: 3rem;*/
+    font-size: 0.75rem;
+}
+
+#footer2 {
+    position: relative;
+    margin-bottom: 3rem;
+    font-size: 0.75rem;
+}
+
+.footer-text {
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+}
+
+.footer-text p {
+    color: white;
+}
+
+#status {
+    display: block;
+}
+
+#contact {
+    display: block;
+    position: absolute;
+    left: 50%;
+}
+
+#copyright {
+    display: block;
+    position: absolute;
+    left: 75%;
+}
+
+.footer-header {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+
+}
+
+.footer-body {
+    margin: 0;
+    line-height: 1rem;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #fecf3b;
+    cursor: crosshair;
+}
+
+#footer2 a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer2 a:hover {
+    color: #fecf3b;
+    cursor: crosshair;
+}
+
+#about {
+    height: 100vh;
+}
+
+#about .about-text {
+    margin-top: 5rem;
+}
+
+#about p.info {
+    position: relative;
+    left: 50%;
+    /*top: 20%;*/
+    color: white;
+    width: 30%;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.25rem;
+    ;
+}
+
+#about p.info a {
+    text-decoration: none;
+    color: #fecf3b;
+}
+
+#about p.info a:hover {
+    text-decoration: none;
+    color: white;
+    cursor: crosshair;
+}
+
+#about #footer {
+    position: sticky;
+    top: 100vh;
+}
+
+#about #footer .footer-text {
+    margin-bottom: 3rem;
+}
