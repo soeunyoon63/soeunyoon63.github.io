@@ -522,6 +522,11 @@ create interesting effects.
     padding-left: 3.75%;
     padding-right: 9%;
   }
+
+  #project .side-info .fixed {
+      top: 7rem;
+      position: sticky;
+  }
 }
 @media all and (max-width: 1600px) {
   #project .side-info .fixed {
