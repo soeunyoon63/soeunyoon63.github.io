@@ -524,6 +524,10 @@ create interesting effects.
   }
 }
 @media all and (max-width: 1600px) {
+  #project .side-info .fixed {
+      top: 7rem;
+      position: sticky;
+  }
   #navbar {
     padding-left: 3%;
     padding-right: 7.25%;
