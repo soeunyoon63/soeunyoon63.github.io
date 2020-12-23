@@ -447,7 +447,80 @@ create interesting effects.
     right: 8%;
     }
 
-    @media all and (max-width: 4000px) {
+@media all and (min-width: 5200px) {
+
+      body{
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+      }
+      hr {
+          margin-top:5%;
+      }
+      .btn {
+        padding: 1rem;
+        border-radius: 1rem;
+        border: 0.5px solid #9B30FF;
+        font-size: 2rem;
+        font-weight: normal;
+      }
+    #navbar {
+      padding-left: 22.5%;
+      padding-right: 25%;
+    }
+    .move{
+      margin-top:-2.5%;
+      margin-right:17.5%;
+    }
+    h3{
+      font-size: 200%;
+    }
+    h5{
+      font-size: 250%;
+    }
+    li{
+      font-size: 200%;
+    }
+    .footer-header, .footer-body{
+      font-size: 200%;
+      line-height: 1.7;
+
+    }
+    h2{
+      font-size: 200%;
+    }
+
+    #project {
+      left: 7.5%;
+    }
+
+    #project p.body-text {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    #project .project-info .project-text {
+        width: 48%;
+    }
+    #project .side-info h1 {
+        font-size: 5rem;
+    }
+
+    #project .side-info h2 {
+      font-size: 200%;
+      line-height: 4rem;
+    }
+
+    #project .side-info p {
+      width: 66.666666%;
+      margin-top: 0rem;
+      margin-bottom: 2rem;
+      font-size: 1.7rem;
+      line-height: 2rem;
+      color: #aeaeae;
+    }
+
+    }
+@media all and (max-width: 4000px) {
 
     #navbar {
       padding-left: 5.25%;
@@ -456,7 +529,72 @@ create interesting effects.
     .move{
       margin-top:-2.5%;
     }
+    hr {
+      margin-top:5%;
+    }
   }
+
+  @media all and (max-width: 5170px) and (min-width: 4010px) {
+    h3{
+      font-size: 200%;
+    }
+    h5{
+      font-size: 250%;
+    }
+    li{
+      font-size: 200%;
+    }
+    .footer-header, .footer-body{
+      font-size: 200%;
+      margin:0%;
+      line-height: 1.7;
+    }
+    h2{
+      font-size: 200%;
+    }
+
+    #project {
+      left: 7.5%;
+    }
+
+    #project p.body-text {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    #project .project-info .project-text {
+        width: 48%;
+    }
+    #project .side-info h1 {
+        font-size: 5rem;
+    }
+
+    #project .side-info h2 {
+      font-size: 200%;
+      line-height: 4rem;
+    }
+
+    #project .side-info p {
+      width: 66.666666%;
+      margin-top: 0rem;
+      margin-bottom: 2rem;
+      font-size: 1.7rem;
+      line-height: 2rem;
+      color: #aeaeae;
+    }
+  #navbar {
+    padding-left: 4.5%;
+    padding-right: 8.5%;
+  }
+  hr{
+    margin-top:5%;
+  }
+  .move{
+    font-size: 200%;
+    line-height: 1.7;
+    margin-top:-4%;
+  }
+  }
+
   @media all and (max-width: 3000px) {
 
   #navbar {
@@ -474,6 +612,10 @@ create interesting effects.
       margin-top:-5%;
     }
 
+    hr {
+      margin-top:5%;
+    }
+
   }
 
   @media all and (max-width: 1500px) {
@@ -485,6 +627,13 @@ create interesting effects.
     margin-top:-6%;
   }
 }
+
+@media all and (max-width: 1024px) {
+.move{
+  margin-top:-8.5%;
+}
+}
+
 @media all and (max-width: 1100px) {
   #navbar {
     padding-left: 2%;
@@ -701,10 +850,22 @@ create interesting effects.
   font-size:140%;
 }
 }
+
+@media screen and (max-width: 768px){
+  p.footer-header {
+    margin-bottom: 0%;
+  }
+  .move {
+      margin-top:-9.5%;
+      }
+
 /* tablet screen */
-@media screen and (max-width: 1024px) and (min-width: 768px){
+@media screen and (max-width: 1024px) and (min-width: 769px){
   .wrapperimg {
     margin-top: 25%;
+  }
+  p.footer-header {
+    margin-bottom: 0%;
   }
   .move {
       margin-top:-8%;
