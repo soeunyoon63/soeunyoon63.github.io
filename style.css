@@ -729,7 +729,26 @@ create interesting effects.
     margin-right:9%;
   }
 }
-
+.marker{
+    font-family: 'Lato', Helvetica Neu,sans-serif;
+    margin-top: 3%;
+    font-size:90%;
+    line-height: 1rem;
+    }
+.marker-title{
+    font-family: 'Lato', Helvetica Neu,sans-serif;
+    font-size: 150%;
+    line-height: 1;
+    color: black;
+    font-weight: bold;
+    display: block;
+    }
+.marker-caption{
+    font-family: 'Lato', Helvetica Neu,sans-serif;
+    color: black;
+    font-size: 90%;
+    line-height: 1rem;
+    }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media all and (max-width: 420px) {
   .wrapperimg {
@@ -888,7 +907,7 @@ create interesting effects.
       margin-top:-13%;
       font-size:60%;
       }
-      .footer-header,.footer-body{
+      .marker,.marker-title,.footer-header,.footer-body{
         font-size:100%;
       }
     }
