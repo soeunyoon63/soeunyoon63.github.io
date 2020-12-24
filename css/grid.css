@@ -53,7 +53,6 @@
   margin-right:-3%;
 }
 
-
 .one1 {
   grid-column: 2 / span 4;
   margin-top: 5%;
@@ -99,6 +98,7 @@
   height:auto;
   max-height:400px;
 }
+
 
 /*PROJECT PAGE ADJUSTING*/
 @media all and (max-width: 1200px) {
@@ -199,7 +199,7 @@
         #project .project-info {
             width: 100%;
         }
-      
+
     }
 
     @media all and (max-width: 780px) {

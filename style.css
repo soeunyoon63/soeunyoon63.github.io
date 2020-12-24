@@ -414,27 +414,7 @@ Text animates independently.
 You can adjust the speed to
 create interesting effects.
 ------------------------------*/
-.marker{
-    font-family: 'Lato', Helvetica Neu,sans-serif;
-    color: #9B30FF;
-    margin-top: 3%;
-    font-size:90%;
-    line-height: 1.5rem;
-    }
-.marker-title{
-    font-family: 'Lato', Helvetica Neu,sans-serif;
-    font-size: 150%;
-    line-height: 1.5;
-    color: black;
-    font-weight: bold;
-    display: block;
-    }
-.marker-caption{
-    font-family: 'Lato', Helvetica Neu,sans-serif;
-    color: black;
-    font-size: 90%;
-    line-height: 1.5rem;
-    }
+
 
 .move{
     opacity: 1;
@@ -520,6 +500,17 @@ create interesting effects.
       font-size: 1.7rem;
       line-height: 2rem;
       color: #aeaeae;
+    }
+    .move {
+      margin-top: -4%;
+    }
+    .marker {
+      font-size: 200%;
+      line-height: 4.5rem;
+    }
+    .marker-title, .marker-caption {
+      font-size: 200%;
+      line-height: 3rem;
     }
 
     }
@@ -620,14 +611,14 @@ create interesting effects.
     }
 
   }
-
+  /* Landscape Ipad Pro, Macpro 15*/
   @media all and (max-width: 1500px) {
   #navbar {
     padding-left: 3%;
     padding-right: 9.5%;
   }
   .move{
-    margin-top:-6%;
+    margin-top:-7%;
   }
 }
 
@@ -880,7 +871,7 @@ create interesting effects.
   font-size:140%;
 }
 }
-
+/*portrait iPhone X*/
 @media screen and (max-width: 768px){
   p.footer-header {
     margin-bottom: 0%;
@@ -889,8 +880,20 @@ create interesting effects.
       margin-top:-9.5%;
       font-size:60%;
       }
+    }
 
-/* tablet screen */
+/*landscape and portrait iPad, iphone 6/7/8/plus*/
+@media screen and (max-width: 767px) and (min-width: 375px){
+  .move {
+      margin-top:-13%;
+      font-size:60%;
+      }
+      .footer-header,.footer-body{
+        font-size:100%;
+      }
+    }
+
+  /* Portrait iPad Pro*/
 @media screen and (max-width: 1024px) and (min-width: 769px){
   .wrapperimg {
     margin-top: 25%;
@@ -899,7 +902,7 @@ create interesting effects.
     margin-bottom: 0%;
   }
   .move {
-      margin-top:-8%;
+      margin-top:-8.5%;
       right: 8%;
       }
 
