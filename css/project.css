@@ -7,11 +7,6 @@ body {
     background: #ffffff;
     margin: 0;
     padding: 0;
-    color: #333333;
-}
-
-hr {
-    border: 0.1px solid #aeaeae;
 }
 
 /*FIXED SIDE INFO*/
@@ -19,13 +14,13 @@ hr {
   margin-top: 5rem;
   position: relative;
   top: 0.5rem;
-  left: 8.333333%;
-  width: 83.333333%;
+  left: 8.333%;
+  width: 81%;
   display: flex;
 }
 
 #project .side-info {
-    width: 30%;
+    width: 35%;
     display: block;
     top: 0;
 }
@@ -37,9 +32,8 @@ hr {
 
 #project .side-info h1 {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     padding-right: 1rem;
-    font-size: 2.5;
     font-family: 'Lato', Helvetica Neu,sans-serif;
     font-weight: 400;
     width: 100%;
@@ -48,25 +42,21 @@ hr {
 #project .side-info h2 {
   font-family: 'Lato', Helvetica Neu,sans-serif;
   font-weight: normal;
-  font-size: 80%;
+  font-size: 90%;
   line-height: normal;
   width: 50%;
   margin-bottom: 0.5rem;
 }
 
 #project .side-info p {
-  width: 66.666666%;
+  width: 65%;
   margin-top: 0rem;
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 90%;
   line-height: 1.25rem;
-  color: #aeaeae;
+  color: #6D6D6D;
 }
 
-#project .side-info p a {
-    color: #aeaeae;
-    text-decoration: none;
-}
 
 #project .project-info {
     width: 70%;
@@ -75,30 +65,57 @@ hr {
 }
 
 #project .project-info .project-text {
-    width: 57.1429%;
+    width: 56%;
 }
 
 .text-container {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-}
-
-.text-container2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 #project p.body-text {
-    font-size: 1rem;
+    font-size: 90%;
     line-height: 1.35rem;
+    color: #6D6D6D;
 }
 
 #project p.body-text a {
     text-decoration: underline;
-    color: #333333;
+    color: #6D6D6D;
+}
+
+#project .text-group h2 {
+  font-family: 'Lato', Helvetica Neu,sans-serif;
+  font-weight: normal;
+  font-size: 90%;
+  line-height: normal;
+  width: 50%;
 }
 
 .project-images img {
     width: 100%;
     margin-bottom: 2rem;
+}
+
+#footer2 {
+  left: 0;
+  width: 100%;
+  margin-top: 5%;
+  padding-left: 3%;
+}
+
+#footer2 li a{
+  padding: 0;
+}
+
+#footer2 h3 {
+  font-weight: normal;
+  font-size:90%;
+  line-height: normal;
+}
+
+#footer2 h1 {
+    margin-top: 0;
+    font-weight: 400;
+    width: 100%;
 }
