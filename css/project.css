@@ -31,7 +31,7 @@ body {
 }
 
 #project .side-info h1 {
-    margin-top: 0;
+    margin-top: 10%;
     margin-bottom: 3rem;
     padding-right: 1rem;
     font-family: 'Lato', Helvetica Neu,sans-serif;
@@ -41,8 +41,8 @@ body {
 
 #project .side-info h2 {
   font-family: 'Lato', Helvetica Neu,sans-serif;
-  font-weight: normal;
-  font-size: 90%;
+  font-weight: lighter;
+  font-size: 95%;
   line-height: normal;
   width: 50%;
   margin-bottom: 0.5rem;
@@ -86,8 +86,8 @@ body {
 
 #project .text-group h2 {
   font-family: 'Lato', Helvetica Neu,sans-serif;
-  font-weight: normal;
-  font-size: 90%;
+  font-weight: lighter;
+  font-size: 120%;
   line-height: normal;
   width: 50%;
 }
