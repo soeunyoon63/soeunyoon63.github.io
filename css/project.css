@@ -42,7 +42,7 @@ body {
 #project .side-info h2 {
   font-family: 'Lato', Helvetica Neu,sans-serif;
   font-weight: lighter;
-  font-size: 95%;
+  font-size: 90%;
   line-height: normal;
   width: 50%;
   margin-bottom: 0.5rem;
@@ -52,9 +52,8 @@ body {
   width: 65%;
   margin-top: 0rem;
   margin-bottom: 2rem;
-  font-size: 90%;
-  line-height: 1.25rem;
-  color: #6D6D6D;
+  font-size: 16px;
+  line-height: 1.35rem;
 }
 
 
@@ -74,20 +73,19 @@ body {
 }
 
 #project p.body-text {
-    font-size: 90%;
+    font-size: 16px;
     line-height: 1.35rem;
-    color: #6D6D6D;
+    letter-spacing: 0.005rem;
 }
 
 #project p.body-text a {
     text-decoration: underline;
-    color: #6D6D6D;
 }
 
 #project .text-group h2 {
   font-family: 'Lato', Helvetica Neu,sans-serif;
   font-weight: lighter;
-  font-size: 120%;
+  font-size: 100%;
   line-height: normal;
   width: 50%;
 }
@@ -109,6 +107,11 @@ body {
 }
 
 #footer2 h3 {
+  font-weight: normal;
+  font-size:90%;
+  line-height: normal;
+}
+#footer2 h2 {
   font-weight: normal;
   font-size:90%;
   line-height: normal;
