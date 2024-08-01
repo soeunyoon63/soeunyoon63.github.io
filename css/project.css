@@ -1,124 +1,115 @@
-* {
-    font-family: 'Lato', 'Helvetica Neue', "Helvetica", sans-serif;
-    box-sizing: border-box;
+/* MAIN MARGIN*/
+.main {
+  margin: 4%;
+  margin-bottom: 2%;
 }
 
-body {
-    background: #ffffff;
-    margin: 0;
-    padding: 0;
+img, video {
+  border-radius: 10px;
 }
 
-/*FIXED SIDE INFO*/
-#project {
-  margin-top: 5rem;
-  position: relative;
-  top: 0.5rem;
-  left: 8.333%;
-  width: 81%;
-  display: flex;
+/* Flex container to hold the side and project work */
+.content-container {
+  display: flex; /* Enables flexbox layout */
+  justify-content: space-between; /* Space between the side-info and project-work */
+  align-items: flex-start; /* Aligns items from the top */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
-#project .side-info {
-    width: 35%;
-    display: block;
-    top: 0;
+/* FIXED SIDE INFO */
+.side-info {
+  width: 29%; /* 20% width for the side info section */
+  position: sticky; /* Keeps side-info in place on scroll */
+  top: 0; /* Ensures it starts at the top */
+  z-index: 1000; /* Ensures it stays above other content */
+  margin-right: 4%; /* Adds a right margin for spacing */
 }
 
-#project .side-info .fixed {
-    top: 5rem;
-    position: sticky;
+.side-info-text-box {
+  padding-top: 10%; /* Padding from the top for text content */
 }
 
-#project .side-info h1 {
-    margin-top: 10%;
-    margin-bottom: 3rem;
-    padding-right: 1rem;
-    font-family: 'Lato', Helvetica Neu,sans-serif;
-    font-weight: 400;
-    width: 100%;
+/* MAIN RIGHT SIDE MARGIN */
+.project-work {
+  flex-grow: 1; /* Allows this section to take remaining space */
+  z-index: 1000; /* Ensures buttons and content stay on top */
+  width:100%;
 }
 
-#project .side-info h2 {
-  font-family: 'Lato', Helvetica Neu,sans-serif;
-  font-weight: lighter;
-  font-size: 90%;
-  line-height: normal;
-  width: 50%;
-  margin-bottom: 0.5rem;
+/* BUTTON STYLE & FILTER EXECUTION */
+.filter-button {
+  padding: 1% 2%; /* Combined padding property for clarity */
+  margin-bottom: 2%; /* Space below each button */
+  border-radius: 30px; /* Rounded button corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: 1.4px solid #111414; /* Button border style */
+  font-size: 108%; /* Font size of the button text */
+  background-color: #EFEFEF; /* Default button background color */
 }
 
-#project .side-info p {
-  width: 65%;
-  margin-top: 0rem;
-  margin-bottom: 2rem;
-  font-size: 16px;
-  line-height: 1.35rem;
+.filter-button:hover {
+  background-color: #111414; /* Background color on hover */
+  color: #EFEFEF; /* Text color on hover */
 }
 
-
-#project .project-info {
-    width: 70%;
-    display: block;
-    margin-left: 0rem;
+.filter-button:active {
+  background-color: #111414; /* Background color on active */
+  color: #EFEFEF; /* Text color on active */
 }
 
-#project .project-info .project-text {
-    width: 56%;
+/* MAIN GRID PORTFOLIO */
+.grid-container {
+  display: grid; /* Grid layout for portfolio items */
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 20px; /* Space between grid items */
+  padding-bottom: 1.5% !important; /* Padding at the bottom */
 }
 
-.text-container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+/* IMAGE ON MAIN INTERACTION */
+.grid-item {
+  opacity: 1; /* Initial opacity */
+  transition: .5s ease; /* Transition effect */
+  backface-visibility: hidden; /* Ensures smooth transition */
 }
 
-#project p.body-text {
-    font-size: 16px;
-    line-height: 1.35rem;
-    letter-spacing: 0.005rem;
+.grid-item:hover video,
+.grid-item:hover img {
+  opacity: 0.3; /* Reduced opacity on hover */
 }
 
-#project p.body-text a {
-    text-decoration: underline;
+/* Footer styling */
+.footer {
+  margin-top: 20px; /* Space above the footer */
 }
 
-#project .text-group h2 {
-  font-family: 'Lato', Helvetica Neu,sans-serif;
-  font-weight: lighter;
-  font-size: 100%;
-  line-height: normal;
-  width: 50%;
+.more {
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Space out the child elements */
+  align-items: center; /* Center items vertically */
+  margin-top: 20px; /* Space above the see more section */
 }
 
-.project-images img {
-    width: 100%;
-    margin-bottom: 2rem;
+.more h6 {
+  flex-grow: 1; /* Allow "See more" to grow and take available space */
 }
 
-#footer2 {
-  left: 0;
-  width: 100%;
-  margin-top: 5%;
-  padding-left: 3%;
+.more h7 {
+  text-align: right; /* Right-align the "Hack@Brown" link */
 }
 
-#footer2 li a{
-  padding: 0;
+/* CATEGORY BUTTON STYLE */
+.side-button {
+  padding: 3% 7%; /* Combined padding property for clarity */
+  border-radius: 30px; /* Rounded corners */
+  border: 1px solid #111414; /* Button border style */
+  font-size: 108%; /* Font size of the button text */
+  background-color: #111414; /* Default button background color */
+  color: #EFEFEF; /* Text color */
 }
 
-#footer2 h3 {
-  font-weight: normal;
-  font-size:90%;
-  line-height: normal;
-}
-#footer2 h2 {
-  font-weight: normal;
-  font-size:90%;
-  line-height: normal;
-}
-
-#footer2 h1 {
-    margin-top: 0;
-    font-weight: 400;
-    width: 100%;
+.project-info-text-box {
+  padding-top: 2%; /* Top padding for project info */
+  padding-bottom: 2%; /* Bottom padding for project info */
+  width: 50%; /* Width of the project info box */
 }

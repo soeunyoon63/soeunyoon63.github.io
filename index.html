@@ -1,210 +1,123 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title title="http://www.soeunyoon.com">Soeun Yoon</title>
-    <meta charset="UTF-8">
-
-    <link rel="icon" href="logo.png" type="png">
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-		<link href="css/media.css" type="text/css" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="logo.png" type="image/png">
     <meta name="keywords" content="Soeun Yoon, soeun yoon, Soeun, SOEUN, soeun, Yoon, YOON, yoon, Portfolio, portfolio, Design, design, Designer, designer, Brand design, brand designer, Branding, Brand identity,ux, UX, User Experience, user experience, Interaction Design, interaction design, Interface Design, interface design, RISD, Rhode Island School of Design, risd, graphic design, Graphic Design">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/project.css" type="text/css" rel="stylesheet">
+		<link href="css/media.css" type="text/css" rel="stylesheet">
+    <link href="css/fontface.css" type="text/css" rel="stylesheet">
+    <title>Soeun Yoon</title>
+</head>
 
-	</head>
+<body>
+    <div class="main">
+        <!-- Flex container to hold both sections side by side -->
+        <div class="content-container">
+            <!-- Left side content -->
+            <div class="side-info">
+                <h1><a href="https://soeunyoon.com">Soeun Yoon</a></h1>
+                <div class="side-info-text-box">
+                    <h2>
+                        Soeun is a graphic designer currently based in sunny California ☼.<br>
+                        <br>Her practice specializes in creating brand identities with a mindful approach to user experience, employing process-driven methods.<br>
+                        <br>She holds a BFA in Graphic Design with a concentration in Computation, Technology, and Culture (CTC) from <a href="https://www.risd.edu" target="_blank">Rhode Island School of Design (RISD)</a>.<br>
+                        <br><br><a class="active" href="mailto:soeunyn@gmail.com">Contact &rarr;</a><br>
+                        <br><a href="images/resume/SoeunYoon_resume.pdf" target="_blank">Resume &rarr;</a><br>
+                        <br><a href="https://www.linkedin.com/in/soeun-y-3a9365133/" target="_blank">LinkedIn &rarr;</a><br>
+                    </h2>
+                </div>
+            </div>
 
-  <body>
-		<!-- partial:index.partial.html -->
-		<!-- <div id="canvas-wrapper" aria-label="floating"></div> -->
-		<!-- partial -->
-		  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script><script  src="./script.js"></script> -->
+            <!-- Right side content -->
+            <div class="project-work">
+                <h1>Selected work<sup>(10)</sup></h1>
 
-			<!---Navigation Bar--->
- <div id="navbar">
-	<ul>
-  <li><a href="https://soeunyoon.com">Soeun Yoon</a></li>
-	<li style="float:right"><a href="https://www.linkedin.com/in/soeun-y-3a9365133/" target="_blank">LinkedIn</a></li>
-	<li style="float:right"><a href= "images/resume/SoeunYoon_resume.pdf" target="_blank">Resume</a></li>
-  	<li style="float:right"><a class="active" href="mailto:soeunyn@gmail.com">Email</a></li>
-  </ul>
-</div>
+                <!-- Portfolio buttons -->
+                <button class="filter-button" data-filter="all">All</button>
+                <button class="filter-button" data-filter="BrandIdentity">Brand Identity</button>
+                <button class="filter-button" data-filter="UI/UX">UI/UX</button>
+                <button class="filter-button" data-filter="Print">Print</button>
+                <button class="filter-button" data-filter="Packaging">Packaging</button>
+                <button class="filter-button" data-filter="Exhibition">Exhibition</button>
 
-   <!---Portfolio--->
+                <!-- Grid container for portfolio items -->
+                <div class="grid-container">
+                    <div class="grid-item BrandIdentity">
+                        <a href="http://soeunyoon.com/revenue.io"><video width="100%" playsinline autoplay loop muted><source src="images/revenue.io/cover.mp4" type="video/mp4"></video></a>
+                        <h2>Revenue.io | Rebranding</h2>
+                    </div>
+                    <div class="grid-item BrandIdentity">
+                        <a href="http://soeunyoon.com/Hack@Brown"><video width="100%" playsinline autoplay loop muted class="image"><source src="images/hack/stage2.mp4" type="video/mp4"></video></a>
+                        <h2>Hack@Brown | New Identity of Hackathon </h2>
+                    </div>
+                    <div class="grid-item BrandIdentity">
+                        <a href="http://soeunyoon.com/holdplease"><video width="100%" playsinline autoplay loop muted class="image"><source src="images/Holdplease/cover.mp4" type="video/mp4"></video></a>
+                        <h2>Hold, Please | Hold for Customer Service </h2>
+                    </div>
+                    <div class="grid-item BrandIdentity">
+                        <a href="http://soeunyoon.com/americanfolkartmuseum"><video width="100%" playsinline autoplay loop muted class="image"><source src="images/americanfolkartmuseum/cover.mp4" type="video/mp4"></video></a>
+                        <h2>American Folk Art Museum | Rebranding</h2>
+                    </div>
+                    <div class="grid-item Print">
+                        <a href="http://soeunyoon.com/minimallife"><img src="images/minimallife/main.png" alt="minimallife" class="image" style="width:100%"></a>
+                        <h2>Minimal Life | A Journey to a Minimal Life</h2>
+                    </div>
+                    <div class="grid-item Exhibition">
+                        <a href="http://soeunyoon.com/immersivespace"><img src="images/immersivespace/cover.jpg" alt="immersivespace" class="image" style="width:100%"></a>
+                        <h2>Immersive Space | Degree Project</h2>
+                    </div>
+                    <div class="grid-item Print">
+                        <a href="http://soeunyoon.com/colorstory"><img src="images/color story/main.png" alt="color" class="image" style="width:100%"></a>
+                        <h2>Color Story | Color and Shape</h2>
+                    </div>
+                    <div class="grid-item Packaging">
+                        <a href="http://soeunyoon.com/coconutwater"><video width="100%" playsinline autoplay loop muted><source src="images/coconutwater/cover.mp4" type="video/mp4"></video></a>
+                        <h2>Coconut Water | Package Design</h2>
+                    </div>
+                    <div class="grid-item UI/UX">
+                        <a href="http://soeunyoon.com/saleslog"><img src="images/theklab/cover.png" alt="theklab" class="image" style="width:100%"></a>
+                        <h2>Saleslog | Connecting B2B Sales Remotely</h2>
+                    </div>
+                    <div class="grid-item UI/UX">
+                        <a href="http://soeunyoon.com/localyze"><img src="images/localyze/profile.jpg" alt="localyze" class="image" style="width:100%"></a>
+                        <h2>Localyze | Facilitating Relocation Process </h2>
+                    </div>
+                </div>
 
-<div class= aboutdescription>
-	<h5>Soeun Yoon is a graphic designer with a focus on brand identity and user experience, using process-driven approaches to solve problems. She holds a BFA in Graphic Design with a concentration in Computation, Technology, and Culture (CTC) from the <a href="https://www.risd.edu" target="_blank">Rhode Island School of Design (RISD)</a>.
-</div>
-<p1 class="help">
-	<!-- MAIN (Center website) -->
-<div class="main">
-<div id="myBtnContainer">
+                <!-- Footer -->
+                <div class="footer"><hr>
+                    <h2>© Soeun Yoon 2024. Self-coded with ♡</h2>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <button class="btn" onclick="filterSelection('all')">All</button>
-		<!-- <button class="btn" onclick="filterSelection('UI/UX')"> UI/UX <sup>2</sup></button> -->
-	<button class="btn" onclick="filterSelection('UI/UX')"> UI/UX </button>
-	<button class="btn" onclick="filterSelection('Brand Identity')"> Brand Identity</button>
-  <button class="btn" onclick="filterSelection('Print')"> Print </button>
-	<button class="btn" onclick="filterSelection('Packaging')"> Packaging </button>
-	<button class="btn" onclick="filterSelection('Motion')"> Motion/Exhibition</button>
-  <!-- <button class="btn" onclick="filterSelection('3D')"> 3D/Motion</button> -->
-</div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.filter-button'); // Select all filter buttons
+            const items = document.querySelectorAll('.grid-item'); // Select all grid items
 
-<!-- <div class=main> -->
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const filter = button.getAttribute('data-filter'); // Get the filter attribute
 
-<div class="row">
-
-	<div class="column Brand Identity">
-  <div class="container">
- 	<a href="http://soeunyoon.com/revenue.io">  <video width="100%" playsinline autoplay loop muted><source src="images/revenue.io/cover.mp4" type:"video/mp4"></video></a>
-  <h3><b>Revenue.io</b> | Rebranding</h3>
-  </div></div>
-
-	<div class="column Brand Identity">
-	<div class="container">
-		<a href="http://soeunyoon.com/Hack@Brown"><video width="100%" playsinline autoplay loop muted class="image"> <source src="images/hack/stage2.mp4" type="video/mp4"></video></a>
-	<h3><b>Hack@Brown</b> | New Identity of Hackathon </h3>
-	</div></div>
-
-	<div class="column UI/UX">
-	<div class="container">
-<a href="http://soeunyoon.com/saleslog"><img src="images/theklab/cover.png" alt="theklab" class="image" style="width:100%"></a>
-	 <h3><b>Saleslog</b> | Connecting B2B Sales Remotely</h3>
-</div></div>
-
-<div class="column Brand Identity">
-<div class="container">
-<a href="http://soeunyoon.com/holdplease"><video width="100%" playsinline autoplay loop muted class="image"><source src="images/Holdplease/cover.mp4" type="video/mp4"></video></a>
-<h3><b>Hold, Please</b> | Hold for Customer Service </h3>
-</div></div>
-
-<div class="column Packaging">
-<div class="container">
- <a href="http://soeunyoon.com/ForkyandKaren"><video width="100%" playsinline autoplay loop muted class="image"> <source src="images/forkyandkaren/cover.mp4" type="video/mp4"></video></a>
- <h3><b>Forky and Karen</b> | Functional Toy Package</h3>
-</div></div>
-
-<div class="column Brand Identity">
-<div class="container">
-<a href="http://soeunyoon.com/americanfolkartmuseum"><video width="100%" playsinline autoplay loop muted class="image"><source src="images/americanfolkartmuseum/cover.mp4" type="video/mp4"></video></a>
-<h3><b>American Folk Art Museum</b> | Rebranding</h3>
-</div>
-</div>
-
-<div class="column UI/UX">
-<div class="container">
- <a href="http://soeunyoon.com/localyze"><img src="images/localyze/profile.jpg" alt="localyze" class="image" style="width:100%"></a>
-<h3><b>Localyze</b> | Facilitating Relocation Process </h3>
-</div>
-</div>
-
-<div class="column UI/UX">
-<div class="container">
-<a href="http://soeunyoon.com/roomof"><img src="images/roomof/cover.jpg" alt="roomof" class="image" style="width:100%"></a>
- <h3><b>Roomof</b> | Bill-Splitting With Housemates</h3>
-</div></div>
-
-<div class="column Print">
-<div class="container">
-<a href="http://soeunyoon.com/minimallife"><img src="images/minimallife/main.png" alt="minimallife" class="image" style="width:100%"></a>
-<h3><b>Minimal Life</b> | A Journey to a Minimal Life</h3>
-</div></div>
-
-	 <div class="column Print">
-	 <div class="container">
-    <a href="http://soeunyoon.com/colorstory"><img src="images/color story/main.png" alt="color" class="image" style="width:100%"></a>
-     <h3><b>Color Story</b> | Color and Shape</h3>
- </div></div>
-
-
- <div class="column Packaging">
- <div class="container">
-	<a href="http://soeunyoon.com/coconutwater">  <video width="100%" playsinline autoplay loop muted><source src="images/coconutwater/cover.mp4" type:"video/mp4"></video></a>
- <h3><b>Coconut Water</b> | Package Design</h3>
- </div></div>
-
- <div class="column Packaging">
- <div class="container">
- <a href="http://soeunyoon.com/Merge"><img src="images/Merge/cover.png" alt="Merge" class="image" style="width:100%"></a>
-  <h3><b>Merge</b> | Launching New Product</h3>
- </div></div>
-
-	<div class="column Motion/Environmental">
-  <div class="container">
- 	 <a href="http://soeunyoon.com/immersivespace"><img src="images/immersivespace/cover.jpg" alt="immersivespace" class="image" style="width:100%"></a>
- 	<h3><b>Immersive Space</b> | Degree Project</h3>
-  </div></div>
-
- <!-- <div class="column Motion/Environmental">
- <div class="container">
-	 <a href="http://soeunyoon.com/intotheunknown"><video width="100%" playsinline autoplay loop muted class="image"> <source src="images/intotheunknown/cover.mp4" type="video/mp4"></video></a>
-	<h3><b>Into the Unknown</b> | Spiritual Objects</h3>
- </div></div> -->
-
-</div>
-
-	<div id="footer">
-			<h3 class="footer-body">&copy; Soeun Yoon 2024 Self-coded</h3>
-	</div>
-
-<!-- END MAIN -->
-
-  <!---->
-	<script>
-	filterSelection("all")
-	function filterSelection(c) {
-	  var x, i;
-	  x = document.getElementsByClassName("column");
-	  if (c == "all") c = "";
-	  for (i = 0; i < x.length; i++) {
-	    w3RemoveClass(x[i], "show");
-	    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-	  }
-	}
-
-	function w3AddClass(element, name) {
-	  var i, arr1, arr2;
-	  arr1 = element.className.split(" ");
-	  arr2 = name.split(" ");
-	  for (i = 0; i < arr2.length; i++) {
-	    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-	  }
-	}
-
-	function w3RemoveClass(element, name) {
-	  var i, arr1, arr2;
-	  arr1 = element.className.split(" ");
-	  arr2 = name.split(" ");
-	  for (i = 0; i < arr2.length; i++) {
-	    while (arr1.indexOf(arr2[i]) > -1) {
-	      arr1.splice(arr1.indexOf(arr2[i]), 1);
-	    }
-	  }
-	  element.className = arr1.join(" ");
-	}
-
-
-	// Add active class to the current button (highlight it)
-	var btnContainer = document.getElementById("myBtnContainer");
-	var btns = btnContainer.getElementsByClassName("btn");
-	for (var i = 0; i < btns.length; i++) {
-	  btns[i].addEventListener("click", function(){
-	    var current = document.getElementsByClassName("active");
-	    current[0].className = current[0].className.replace(" active", "");
-	    this.className += " active";
-	  });
-	}
-	var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-10px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-
-	</script>
-
+                    items.forEach(item => {
+                        if (filter === 'all') {
+                            item.style.display = 'block'; // Show all items
+                        } else {
+                            if (item.classList.contains(filter)) {
+                                item.style.display = 'block'; // Show items matching the filter
+                            } else {
+                                item.style.display = 'none'; // Hide items not matching the filter
+                            }
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>
