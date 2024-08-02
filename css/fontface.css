@@ -1,15 +1,15 @@
 @font-face {
-font-family: 'Inter-Light';
+font-family: 'Inter', Arial, sans-serif;
 src: local('Inter-Light'), url('Inter-Light.ttf') format('ttf');
 font-weight: lighter;
 }
 @font-face {
-  font-family: 'Inter-Regular';
+font-family: 'Inter', Arial, sans-serif;
   src: local('Inter-Regular'), url('Inter-Regular.ttf') format('ttf');
   font-weight: normal;
 }
 @font-face {
-font-family: 'Inter-Medium';
+font-family: 'Inter', Arial, sans-serif;
 src: local('Inter-Medium'), url('Inter-Medium.ttf') format('ttf');
 font-weight: medium;
 }
