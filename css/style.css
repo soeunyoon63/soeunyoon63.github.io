@@ -7,44 +7,44 @@ body {
 }
 
 h1 {
-  font-family: 'Inter-Regular', Helvetica Neu, sans-serif;
+  font-family: 'Inter-Regular', Inter, sans-serif;
   font-size:260%;
-  font-weight: normal;
+  font-weight: 400;
   color: #111414;
 }
 h2 {
-  font-family: 'Inter-Regular', Helvetica Neu,sans-serif;
+  font-family: 'Inter-Regular', Inter,sans-serif;
   font-size:108%;
-  font-weight: normal;
+  font-weight: 400;
   line-height:130%;
   color: #111414;
 }
 h3 {
-  font-family: 'Inter-Regular', Helvetica Neu, sans-serif;
+  font-family: 'Inter-Regular', Inter, sans-serif;
   font-size:260%;
-  font-weight: normal;
+  font-weight: 400;
   color: #111414;
   line-height:130%;
 }
 h4 {
-  font-family: 'Inter-Regular', Helvetica Neu,sans-serif;
+  font-family: 'Inter-Regular', Inter,sans-serif;
   font-size:108%;
-  font-weight: normal;
+  font-weight: 400;
   line-height:130%;
   color: #979797;
   line-height:1%;
 }
 h5 {
-  font-family: 'Inter-Regular', Helvetica Neu,sans-serif;
+  font-family: 'Inter-Regular', Inter,sans-serif;
   font-size:108%;
-  font-weight: normal;
+  font-weight: 400;
   line-height:130%;
   color: #111414;
 }
 h6 {
-  font-family: 'Inter-Regular', Helvetica Neu,sans-serif;
+  font-family: 'Inter-Regular', Inter,sans-serif;
   font-size:108%;
-  font-weight: normal;
+  font-weight: 400;
   line-height:130%;
   color: #979797;
   margin: 0;
@@ -52,9 +52,9 @@ h6 {
 
 }
 h7 {
-  font-family: 'Inter-Regular', Helvetica Neu, sans-serif;
+  font-family: 'Inter-Regular', Inter, sans-serif;
   font-size:260%;
-  font-weight: normal;
+  font-weight: 400;
   color: #111414;
   margin: 0;
   justify-self: end; /* Align h1 to the right */
@@ -73,21 +73,22 @@ hr {
 a:link {
   text-decoration: none;
   color: #111414;
+  font-family: 'Inter-Regular', Inter, sans-serif;
 }
 a:visited {
   text-decoration: none;
   color: #111414;
-  font-family: 'Inter-Medium', Helvetica Neu,sans-serif;
-  font-weight: medium;
+  font-family: 'Inter-Medium', Inter, sans-serif;
+  font-weight: 500;
 }
 a:hover {
   text-decoration: none;
   color: #111414;
-  font-family: 'Inter-Medium', Helvetica Neu,sans-serif;
-  font-weight: medium;
+  font-family: 'Inter-Medium', Inter, sans-serif;
+  font-weight: 500;
 }
 a:active {
   color: #111414;
-  font-family: 'Inter-Medium', Helvetica Neu,sans-serif;
-  font-weight: medium;
+  font-family: 'Inter-Medium', Inter, sans-serif;
+  font-weight: 500;
 }

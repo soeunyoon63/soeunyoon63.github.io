@@ -1,15 +1,26 @@
 @font-face {
-font-family: 'Inter-Light', Helvetica Neu, sans-serif;
-src: local('Inter-Light'), url('Inter-Light.otf') format('opentype');
-font-weight: lighter;
+    font-family: 'Inter-Light', Inter, sans-serif;
+    src: url('fonts/Inter-Light.woff2') format('woff2'),
+         url('fonts/Inter-Light.ttf') format('ttf'),
+         url('fonts/Inter-Light.otf') format('opentype');
+    font-weight: 300; /* Use numeric weight */
+    font-style: normal;
 }
+
 @font-face {
-font-family: 'Inter-Regular', Helvetica Neu, sans-serif;
-  src: local('Inter-Regular'), url('Inter-Regular.otf') format('opentype');
-  font-weight: normal;
+    font-family: 'Inter-Regular', Inter, sans-serif;
+    src: url('fonts/Inter-Regular.woff2') format('woff2'),
+         url('fonts/Inter-Regular.ttf') format('ttf'),
+         url('fonts/Inter-Regular.otf') format('opentype');
+    font-weight: 400; /* Use numeric weight */
+    font-style: normal;
 }
+
 @font-face {
-font-family: 'Inter-Medium', Helvetica Neu, sans-serif;
-src: local('Inter-Medium'), url('Inter-Medium.otf') format('opentype');
-font-weight: medium;
+    font-family: 'Inter-Medium', Inter, sans-serif;
+    src: url('fonts/Inter-Medium.woff2') format('woff2'),
+         url('fonts/Inter-Medium.ttf') format('ttf'),
+         url('fonts/Inter-Medium.otf') format('opentype');
+    font-weight: 500; /* Use numeric weight */
+    font-style: normal;
 }
