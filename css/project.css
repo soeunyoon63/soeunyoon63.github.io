@@ -41,7 +41,7 @@ img, video {
 .filter-button {
   text-decoration: none;
   color: #111414;
-  padding: 1% 2%; /* Combined padding property for clarity */
+  padding: 0.9% 2%; /* Combined padding property for clarity */
   margin-bottom: 2%; /* Space below each button */
   border-radius: 30px; /* Rounded button corners */
   cursor: pointer; /* Pointer cursor on hover */
