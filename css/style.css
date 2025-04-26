@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-family: 'Inter-Regular', Inter, sans-serif;
-  font-size:260%;
+  font-size:200%;
   font-weight: 400;
   color: #111414;
 }
@@ -16,19 +16,19 @@ h2 {
   font-family: 'Inter-Regular', Inter,sans-serif;
   font-size:108%;
   font-weight: 400;
-  line-height:130%;
   color: #111414;
 }
 h3 {
   font-family: 'Inter-Regular', Inter, sans-serif;
-  font-size:260%;
+  font-size:200%;
   font-weight: 400;
   color: #111414;
   line-height:130%;
+  margin-top: 3%;
 }
 h4 {
   font-family: 'Inter-Regular', Inter,sans-serif;
-  font-size:108%;
+  font-size:105%;
   font-weight: 400;
   line-height:130%;
   color: #979797;
@@ -36,24 +36,25 @@ h4 {
 }
 h5 {
   font-family: 'Inter-Regular', Inter,sans-serif;
-  font-size:108%;
+  font-size:105%;
   font-weight: 400;
   line-height:130%;
   color: #111414;
+  margin-top: 1%;
 }
 h6 {
   font-family: 'Inter-Regular', Inter,sans-serif;
-  font-size:108%;
+  font-size:105%;
   font-weight: 400;
   line-height:130%;
-  color: #979797;
+  color: #111414;
   margin: 0;
   justify-self: start; /* Align h4 to the left */
 
 }
 h7 {
   font-family: 'Inter-Regular', Inter, sans-serif;
-  font-size:260%;
+  font-size:200%;
   font-weight: 400;
   color: #111414;
   margin: 0;
@@ -66,7 +67,7 @@ sup {
 
 hr {
   border-top: 1px solid;
-  color: #C4C4C4;
+  color: #979797;
 }
 
 /*HYPERLINK INTERACTION*/

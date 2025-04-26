@@ -133,6 +133,17 @@
                 });
             });
         });
+        const buttons = document.querySelectorAll('.filter-button');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Optional: remove 'selected' from all buttons if only one should be active
+    buttons.forEach(btn => btn.classList.remove('selected'));
+
+    // Add 'selected' to the clicked button
+    button.classList.add('selected');
+  });
+});
     </script>
 </body>
 </html>

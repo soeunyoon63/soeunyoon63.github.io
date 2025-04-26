@@ -41,7 +41,7 @@ img, video {
 .filter-button {
   text-decoration: none;
   color: #111414;
-  padding: 0.9% 2%; /* Combined padding property for clarity */
+  padding: 0.6% 2%; /* Combined padding property for clarity */
   margin-bottom: 2%; /* Space below each button */
   border-radius: 30px; /* Rounded button corners */
   cursor: pointer; /* Pointer cursor on hover */
@@ -58,6 +58,11 @@ img, video {
 .filter-button:active {
   background-color: #111414; /* Background color on active */
   color: #EFEFEF; /* Text color on active */
+}
+
+.filter-button.selected {
+  background-color: #111414;
+  color: #EFEFEF;
 }
 
 /* MAIN GRID PORTFOLIO */
@@ -102,7 +107,7 @@ img, video {
 
 /* CATEGORY BUTTON STYLE */
 .side-button {
-  padding: 3% 7%; /* Combined padding property for clarity */
+  padding: 2.07% 6.9%; /* Combined padding property for clarity */
   border-radius: 30px; /* Rounded corners */
   border: 1px solid #111414; /* Button border style */
   font-size: 108%; /* Font size of the button text */
