@@ -73,6 +73,13 @@ img, video {
   padding-bottom: 1.5% !important; /* Padding at the bottom */
 }
 
+.grid-container2 {
+  display: grid; /* Grid layout for portfolio items */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px; /* Space between grid items */
+  padding-bottom: 1.5% !important; /* Padding at the bottom */
+}
+
 /* IMAGE ON MAIN INTERACTION */
 .grid-item {
   opacity: 1; /* Initial opacity */
