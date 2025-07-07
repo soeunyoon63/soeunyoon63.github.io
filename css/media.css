@@ -1,8 +1,15 @@
 /* Styles for small mobile devices (portrait) */
 @media (max-width: 480px) {
     .content-container {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: row; /* Stack items vertically */
         padding: 10px;
+    }
+
+    .sidebar-container {
+      display: flex;
+      flex-direction: row; /* row layout for mobile */
+      gap: 16px; /* optional: spacing between links */
+      flex-wrap: wrap; /* optional: wrap if they don’t fit */
     }
 
     .side-info {
@@ -43,6 +50,13 @@
         flex-direction: column; /* Stack items vertically on smaller screens */
     }
 
+    .sidebar-container {
+      display: flex;
+      flex-direction: row; /* row layout for mobile */
+      gap: 16px; /* optional: spacing between links */
+      flex-wrap: wrap; /* optional: wrap if they don’t fit */
+    }
+
     .side-info {
         width:0;
         width: 100%; /* Full width for side-info */
@@ -81,6 +95,14 @@
   .content-container {
       flex-direction: column; /* Stack items vertically on smaller screens */
   }
+
+  .sidebar-container {
+    display: flex;
+    flex-direction: row; /* row layout for mobile */
+    gap: 16px; /* optional: spacing between links */
+    flex-wrap: wrap; /* optional: wrap if they don’t fit */
+  }
+
     .side-info {
           width:0;
           width: 100%; /* Full width for side-info */

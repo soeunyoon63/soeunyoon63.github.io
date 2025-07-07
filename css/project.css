@@ -17,6 +17,12 @@ img, video {
   padding: 0; /* Remove default padding */
 }
 
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 /* FIXED SIDE INFO */
 .side-info {
   width: 29%; /* 20% width for the side info section */
