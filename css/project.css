@@ -1,4 +1,4 @@
-/* === GLOBAL SCROLLBAR HANDLING =============================== */
+/* GLOBAL SCROLLBAR HANDLING*/
 html{
     overflow-y:auto;          /* show bar only when needed           */
     scrollbar-gutter: stable; /* …but always reserve the 17 px space */
