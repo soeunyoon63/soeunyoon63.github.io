@@ -1,3 +1,14 @@
+/* === GLOBAL SCROLLBAR HANDLING =============================== */
+html{
+    overflow-y:auto;          /* show bar only when needed           */
+    scrollbar-gutter: stable; /* …but always reserve the 17 px space */
+}
+
+@supports not (scrollbar-gutter:stable){
+    /* Legacy fallback (IE 11, very old Chromium) */
+    html{overflow-y:scroll;}  /* bar always visible, width constant  */
+}
+
 /* MAIN MARGIN*/
 .main {
   margin: 4%;
