@@ -2,45 +2,60 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #EFEFEF;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font-family: 'Inter-Regular', Inter, sans-serif;
-  font-size:200%;
+  font-size: 220%;
   font-weight: 400;
   color: #111414;
+  margin-top: 0;
+  margin-bottom: 1.5%;
 }
 h2 {
-  font-family: 'Inter-Regular', Inter,sans-serif;
-  font-size:108%;
+  font-family: 'Inter-Regular', Inter, sans-serif;
+  font-size: 108%;
   font-weight: 400;
   color: #111414;
+  margin-top: 0;
+  line-height: 160%;
 }
 h3 {
-  font-family: 'Inter-Regular', Inter, sans-serif;
-  font-size:200%;
-  font-weight: 400;
+  font-family: 'Inter-Medium', Inter, sans-serif;
+  font-size: 120%;
+  font-weight: 500;
   color: #111414;
-  line-height:130%;
-  margin-top: 3%;
+  line-height: 130%;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
 }
 h4 {
-  font-family: 'Inter-Regular', Inter,sans-serif;
-  font-size:105%;
-  font-weight: 400;
-  line-height:130%;
+  font-family: 'Inter-Medium', Inter, sans-serif;
+  font-size: 78%;
+  font-weight: 500;
+  line-height: 130%;
   color: #979797;
-  line-height:1%;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
 }
 h5 {
-  font-family: 'Inter-Regular', Inter,sans-serif;
-  font-size:105%;
+  font-family: 'Inter-Regular', Inter, sans-serif;
+  font-size: 108%;
   font-weight: 400;
-  line-height:130%;
+  line-height: 160%;
   color: #111414;
-  margin-top: 1%;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
 }
 h6 {
   font-family: 'Inter-Regular', Inter,sans-serif;
@@ -79,17 +94,14 @@ a:link {
 a:visited {
   text-decoration: none;
   color: #111414;
-  font-family: 'Inter-Medium', Inter, sans-serif;
-  font-weight: 500;
 }
 a:hover {
   text-decoration: none;
   color: #111414;
-  font-family: 'Inter-Medium', Inter, sans-serif;
-  font-weight: 500;
+  text-decoration: underline;
 }
 a:active {
   color: #111414;
-  font-family: 'Inter-Medium', Inter, sans-serif;
-  font-weight: 500;
+  text-decoration: underline;
+  opacity:0.4;
 }

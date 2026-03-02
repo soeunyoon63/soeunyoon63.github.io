@@ -1,133 +1,160 @@
 /* Styles for small mobile devices (portrait) */
 @media (max-width: 480px) {
+    .top-nav {
+        padding: 1rem 4%;
+    }
+
+    .nav-links {
+        gap: 1.2rem;
+    }
+
     .content-container {
-        flex-direction: row; /* Stack items vertically */
+        flex-direction: column;
         padding: 10px;
     }
 
-    .sidebar-container {
-      display: flex;
-      flex-direction: row; /* row layout for mobile */
-      gap: 16px; /* optional: spacing between links */
-      flex-wrap: wrap; /* optional: wrap if they don’t fit */
-    }
-
     .side-info {
-        width: 100%; /* Full width for sidebar */
+        width: 100%;
         height: auto;
         margin-bottom: 20px;
-        margin-right: 0; /* Remove right margin */
-        overflow-y: visible; /* No internal scrolling needed */
-        position: relative; /* Disable sticky positioning on smaller screens */
+        margin-right: 0;
+        overflow-y: visible;
+        position: relative;
+        top: auto;
+    }
+
+    .side-icons {
+        margin-top: 1.2rem;
     }
 
     .project-work {
-        margin-left: 0; /* Remove left margin */
+        margin-left: 0;
     }
+
     .grid-container {
-        grid-template-columns: 1fr; /* Single column grid */
+        grid-template-columns: 1fr;
     }
 
     .project-info-text-box {
-      width:0;
-      width: 100%; /* Width of the project info box */
-      padding-top: 0%;
+        width: 100%;
+        padding-top: 0;
     }
+
     .filter-button {
-      padding: 2% 3%; /* Combined padding property for clarity */
+        padding: 2% 3%;
     }
+
     .side-button {
-      padding: 2% 3%; /* Combined padding property for clarity */
-    }
-    .side-info-text-box {
-      padding-top: 2%;
+        padding: 2% 3%;
     }
 }
 
-/* Styles for larger mobile devices (landscape) */
+/* Styles for larger mobile devices (landscape) and small tablets */
 @media (max-width: 768px) {
-    .content-container {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+    .top-nav {
+        padding: 1rem 4%;
     }
 
-    .sidebar-container {
-      display: flex;
-      flex-direction: row; /* row layout for mobile */
-      gap: 16px; /* optional: spacing between links */
-      flex-wrap: wrap; /* optional: wrap if they don’t fit */
+    .nav-links {
+        gap: 1.4rem;
+    }
+
+    .content-container {
+        flex-direction: column;
     }
 
     .side-info {
-        width:0;
-        width: 100%; /* Full width for side-info */
+        width: 100%;
         margin-bottom: 20px;
-        height: auto; /* Allow natural height expansion */
-        margin-right: 0; /* Remove right margin */
-        overflow-y: visible; /* No internal scrolling needed */
-        position: relative; /* Disable sticky positioning on smaller screens */
+        height: auto;
+        margin-right: 0;
+        overflow-y: visible;
+        position: relative;
+        top: auto;
+    }
+
+    .side-icons {
+        margin-top: 1.2rem;
     }
 
     .project-work {
-        margin-left: 0; /* Remove left margin */
+        margin-left: 0;
     }
 
     .grid-container {
-        grid-template-columns: 1fr; /* Single column grid */
+        grid-template-columns: 1fr;
     }
 
     .project-info-text-box {
-      width:0;
-      width: 100%; /* Width of the project info box */
+        width: 100%;
     }
+
     .side-button {
-      padding: 1% 2%; /* Combined padding property for clarity */
+        padding: 1% 2%;
     }
+
     .filter-button {
-      padding: 1% 2%; /* Combined padding property for clarity */
-    }
-    .side-info-text-box {
-      padding-top: 2%;
+        padding: 1% 2%;
     }
 }
 
 /* Styles for tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
-  .content-container {
-      flex-direction: column; /* Stack items vertically on smaller screens */
-  }
+    .top-nav {
+        padding: 1rem 4%;
+    }
 
-  .sidebar-container {
-    display: flex;
-    flex-direction: row; /* row layout for mobile */
-    gap: 16px; /* optional: spacing between links */
-    flex-wrap: wrap; /* optional: wrap if they don’t fit */
-  }
+    .nav-links {
+        gap: 1.6rem;
+    }
+
+    .content-container {
+        flex-direction: column;
+    }
 
     .side-info {
-          width:0;
-          width: 100%; /* Full width for side-info */
-          height: auto; /* Allow natural height expansion */
-          margin-bottom: 20px;
-          margin-right: 0; /* Remove right margin */
-          overflow-y: visible; /* No internal scrolling needed */
-          position: relative; /* Disable sticky positioning on smaller screens */
-      }
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-right: 0;
+        overflow-y: visible;
+        position: relative;
+        top: auto;
+    }
 
-      .project-work {
-          margin-left: 0; /* Remove left margin */
-      }
+    .side-icons {
+        margin-top: 1.2rem;
+    }
 
-      .project-info-text-box {
-        width:0;
-        width: 100%; /* Width of the project info box */
-      }
-      .side-button {
-        padding: 1% 2%; /* Combined padding property for clarity */
-      }
-      .filter-button {
-        padding: 1% 2%; /* Combined padding property for clarity */
-      }
-      .side-info-text-box {
-        padding-top: 2%;
-      }
+    .project-work {
+        margin-left: 0;
+    }
+
+    .project-info-text-box {
+        width: 100%;
+    }
+
+    .side-button {
+        padding: 1% 2%;
+    }
+
+    .filter-button {
+        padding: 1% 2%;
+    }
+}
+/* PROJECT PAGE — responsive overrides */
+@media (max-width: 1024px) {
+  .project-text {
+    width: 100%;
+  }
+
+  .project-meta {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .project-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
